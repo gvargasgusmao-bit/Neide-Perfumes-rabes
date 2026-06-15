@@ -1,0 +1,88 @@
+.produto-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.produto-imagem {
+    background-color: #fff;
+    padding: 3rem;
+    border: 1px solid var(--cor-areia);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.produto-imagem img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 1.5s ease;
+}
+
+.produto-imagem:hover img {
+    transform: scale(1.05);
+}
+
+.produto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.produto-marca {
+    font-size: 0.85rem;
+    color: var(--cor-dourado);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.produto-descricao {
+    font-size: 1rem;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.piramide-olfativa {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--cor-areia);
+}
+
+.piramide-olfativa h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.nota-camada {
+    margin-bottom: 1rem;
+}
+
+.nota-camada span {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--cor-dourado);
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+
+.nota-camada p {
+    font-size: 0.95rem;
+    color: var(--cor-verde-escuro);
+}
+
+.cta-container {
+    margin-top: 2rem;
+}
+
+/* Responsividade de Luxo */
+@media (max-width: 900px) {
+    .produto-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}

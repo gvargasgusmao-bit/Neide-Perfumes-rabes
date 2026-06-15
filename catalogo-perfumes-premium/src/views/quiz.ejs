@@ -1,0 +1,654 @@
+<%- include('partials/header', {
+  meta: {
+    title: 'Quiz de Perfumes Árabes | Descubra seu Perfume Ideal — Neide Perfumes',
+    description: 'Responda 7 perguntas rápidas e descubra qual perfume árabe é perfeito para você. Sistema inteligente de recomendação baseado no seu estilo, ocasião e perfumes favoritos.',
+    canonical: '/quiz'
+  },
+  config
+}) %>
+
+<div class="quiz-pagina">
+  <div class="quiz-container">
+
+    <!-- Etapas do Quiz -->
+    <div id="quiz-form">
+
+      <!-- Progresso -->
+      <div class="quiz-progresso" id="quiz-progresso">
+        <div class="quiz-progresso-info">
+          <span class="quiz-progresso-titulo">Seu perfil olfativo</span>
+          <span class="quiz-progresso-numeros">
+            <span id="quiz-etapa-atual">1</span> / 7
+          </span>
+        </div>
+        <div class="quiz-barra" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="14">
+          <div class="quiz-barra-fill" id="quiz-barra-fill" style="width: 14%;"></div>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 1 — Gênero ===== -->
+      <div class="quiz-etapa ativa" id="etapa-1" data-etapa="1">
+        <div class="quiz-etapa-badge">Etapa 1 de 7 • Perfil</div>
+        <h1 class="quiz-pergunta">Você procura perfume para quem?</h1>
+        <p class="quiz-subpergunta">Selecione uma opção para continuar</p>
+
+        <div class="quiz-opcoes quiz-opcoes-3" role="radiogroup" aria-label="Gênero do perfume">
+          <button class="quiz-opcao" data-campo="genero" data-valor="masculino" id="opcao-genero-m" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">👔</span>
+            <span class="quiz-opcao-texto">Homem</span>
+            <span class="quiz-opcao-desc">Fragrâncias masculinas</span>
+          </button>
+          <button class="quiz-opcao" data-campo="genero" data-valor="feminino" id="opcao-genero-f" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">👗</span>
+            <span class="quiz-opcao-texto">Mulher</span>
+            <span class="quiz-opcao-desc">Fragrâncias femininas</span>
+          </button>
+          <button class="quiz-opcao" data-campo="genero" data-valor="unissex" id="opcao-genero-u" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">✨</span>
+            <span class="quiz-opcao-texto">Unissex</span>
+            <span class="quiz-opcao-desc">Para qualquer pessoa</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <span></span>
+          <button class="btn btn-primario" id="prox-1" onclick="proximaEtapa(1)" disabled aria-label="Próxima etapa">
+            Próximo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 2 — Intensidade ===== -->
+      <div class="quiz-etapa" id="etapa-2" data-etapa="2">
+        <div class="quiz-etapa-badge">Etapa 2 de 7 • Intensidade</div>
+        <h2 class="quiz-pergunta">Qual intensidade você prefere?</h2>
+        <p class="quiz-subpergunta">Escolha o nível de intensidade que mais combina com você</p>
+
+        <div class="quiz-opcoes quiz-opcoes-2" role="radiogroup" aria-label="Intensidade do perfume">
+          <button class="quiz-opcao" data-campo="intensidade" data-valor="suave" id="opcao-int-1" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌸</span>
+            <span class="quiz-opcao-texto">Suave</span>
+            <span class="quiz-opcao-desc">Discreto, para uso próximo</span>
+          </button>
+          <button class="quiz-opcao" data-campo="intensidade" data-valor="moderada" id="opcao-int-2" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌼</span>
+            <span class="quiz-opcao-texto">Moderada</span>
+            <span class="quiz-opcao-desc">Equilibrado, versátil</span>
+          </button>
+          <button class="quiz-opcao" data-campo="intensidade" data-valor="forte" id="opcao-int-3" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🔥</span>
+            <span class="quiz-opcao-texto">Forte</span>
+            <span class="quiz-opcao-desc">Marcante, presença notada</span>
+          </button>
+          <button class="quiz-opcao" data-campo="intensidade" data-valor="muito_marcante" id="opcao-int-4" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💥</span>
+            <span class="quiz-opcao-texto">Muito Marcante</span>
+            <span class="quiz-opcao-desc">Deixa rastro, inesquecível</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(2)" id="voltar-2" aria-label="Etapa anterior">← Voltar</button>
+          <button class="btn btn-primario" id="prox-2" onclick="proximaEtapa(2)" disabled>
+            Próximo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 3 — Estilo ===== -->
+      <div class="quiz-etapa" id="etapa-3" data-etapa="3">
+        <div class="quiz-etapa-badge">Etapa 3 de 7 • Estilo</div>
+        <h2 class="quiz-pergunta">Qual estilo combina mais com você?</h2>
+        <p class="quiz-subpergunta">Pode selecionar mais de um</p>
+
+        <div class="quiz-opcoes quiz-opcoes-3" role="group" aria-label="Estilo de perfume">
+          <button class="quiz-opcao" data-campo="estilo" data-valor="elegante" id="opcao-est-1" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🎩</span>
+            <span class="quiz-opcao-texto">Elegante</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="sedutor" id="opcao-est-2" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌹</span>
+            <span class="quiz-opcao-texto">Sedutor</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="sofisticado" id="opcao-est-3" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💎</span>
+            <span class="quiz-opcao-texto">Sofisticado</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="jovem" id="opcao-est-4" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">⚡</span>
+            <span class="quiz-opcao-texto">Jovem</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="luxuoso" id="opcao-est-5" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">👑</span>
+            <span class="quiz-opcao-texto">Luxuoso</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="executivo" id="opcao-est-6" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💼</span>
+            <span class="quiz-opcao-texto">Executivo</span>
+          </button>
+          <button class="quiz-opcao" data-campo="estilo" data-valor="casual" id="opcao-est-7" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">😊</span>
+            <span class="quiz-opcao-texto">Casual</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(3)" id="voltar-3">← Voltar</button>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <span class="quiz-nav-pular" onclick="pularEtapa(3)" id="pular-3">Pular</span>
+            <button class="btn btn-primario" id="prox-3" onclick="proximaEtapa(3)" disabled>
+              Próximo →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 4 — Ocasião ===== -->
+      <div class="quiz-etapa" id="etapa-4" data-etapa="4">
+        <div class="quiz-etapa-badge">Etapa 4 de 7 • Ocasião</div>
+        <h2 class="quiz-pergunta">Quando pretende usar?</h2>
+        <p class="quiz-subpergunta">Pode selecionar mais de um</p>
+
+        <div class="quiz-opcoes quiz-opcoes-3" role="group" aria-label="Ocasião de uso">
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="trabalho" id="opcao-oc-1" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💼</span>
+            <span class="quiz-opcao-texto">Trabalho</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="dia_a_dia" id="opcao-oc-2" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">☀️</span>
+            <span class="quiz-opcao-texto">Dia a dia</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="academia" id="opcao-oc-3" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🏋️</span>
+            <span class="quiz-opcao-texto">Academia</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="encontros" id="opcao-oc-4" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">❤️</span>
+            <span class="quiz-opcao-texto">Encontros</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="eventos" id="opcao-oc-5" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🎭</span>
+            <span class="quiz-opcao-texto">Eventos</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="festas" id="opcao-oc-6" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🎉</span>
+            <span class="quiz-opcao-texto">Festas</span>
+          </button>
+          <button class="quiz-opcao" data-campo="ocasiao" data-valor="uso_noturno" id="opcao-oc-7" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌙</span>
+            <span class="quiz-opcao-texto">Uso Noturno</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(4)" id="voltar-4">← Voltar</button>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <span class="quiz-nav-pular" onclick="pularEtapa(4)" id="pular-4">Pular</span>
+            <button class="btn btn-primario" id="prox-4" onclick="proximaEtapa(4)" disabled>
+              Próximo →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 5 — Família Olfativa ===== -->
+      <div class="quiz-etapa" id="etapa-5" data-etapa="5">
+        <div class="quiz-etapa-badge">Etapa 5 de 7 • Essência</div>
+        <h2 class="quiz-pergunta">Qual família olfativa prefere?</h2>
+        <p class="quiz-subpergunta">Selecione as que mais te atraem</p>
+
+        <div class="quiz-opcoes" style="grid-template-columns: repeat(2, 1fr);" role="group" aria-label="Família olfativa">
+          <button class="quiz-opcao" data-campo="familia" data-valor="doce" id="opcao-fam-1" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🍬</span>
+            <span class="quiz-opcao-texto">Doce</span>
+            <span class="quiz-opcao-desc">Açúcar, caramelo, mel</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="baunilha" id="opcao-fam-2" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌿</span>
+            <span class="quiz-opcao-texto">Baunilha</span>
+            <span class="quiz-opcao-desc">Quente, envolvente, sensual</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="frutada" id="opcao-fam-3" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🍑</span>
+            <span class="quiz-opcao-texto">Frutada</span>
+            <span class="quiz-opcao-desc">Pêssego, pera, framboesa</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="floral" id="opcao-fam-4" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌸</span>
+            <span class="quiz-opcao-texto">Floral</span>
+            <span class="quiz-opcao-desc">Rosa, jasmim, peônia</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="amadeirada" id="opcao-fam-5" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌲</span>
+            <span class="quiz-opcao-texto">Amadeirada</span>
+            <span class="quiz-opcao-desc">Cedro, sândalo, vetiver</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="citrica" id="opcao-fam-6" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🍋</span>
+            <span class="quiz-opcao-texto">Cítrica</span>
+            <span class="quiz-opcao-desc">Limão, bergamota, laranja</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="especiada" id="opcao-fam-7" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌶️</span>
+            <span class="quiz-opcao-texto">Especiada</span>
+            <span class="quiz-opcao-desc">Pimenta, cardamomo, canela</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="oriental" id="opcao-fam-8" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🕌</span>
+            <span class="quiz-opcao-texto">Oriental</span>
+            <span class="quiz-opcao-desc">Âmbar, incenso, saffron</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="couro" id="opcao-fam-9" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🎭</span>
+            <span class="quiz-opcao-texto">Couro</span>
+            <span class="quiz-opcao-desc">Forte, marcante, único</span>
+          </button>
+          <button class="quiz-opcao" data-campo="familia" data-valor="oud" id="opcao-fam-10" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🌑</span>
+            <span class="quiz-opcao-texto">Oud</span>
+            <span class="quiz-opcao-desc">O ouro líquido do Oriente</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(5)" id="voltar-5">← Voltar</button>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <span class="quiz-nav-pular" onclick="pularEtapa(5)" id="pular-5">Pular</span>
+            <button class="btn btn-primario" id="prox-5" onclick="proximaEtapa(5)" disabled>
+              Próximo →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 6 — Preço ===== -->
+      <div class="quiz-etapa" id="etapa-6" data-etapa="6">
+        <div class="quiz-etapa-badge">Etapa 6 de 7 • Investimento</div>
+        <h2 class="quiz-pergunta">Qual faixa de preço você prefere?</h2>
+        <p class="quiz-subpergunta">Todos os perfumes são originais e importados</p>
+
+        <div class="quiz-opcoes quiz-opcoes-2" role="radiogroup" aria-label="Faixa de preço">
+          <button class="quiz-opcao" data-campo="preco_faixa" data-valor="ate_250" id="opcao-preco-1" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💚</span>
+            <span class="quiz-opcao-texto">Até R$ 250</span>
+            <span class="quiz-opcao-desc">Ótimo custo-benefício</span>
+          </button>
+          <button class="quiz-opcao" data-campo="preco_faixa" data-valor="ate_350" id="opcao-preco-2" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💛</span>
+            <span class="quiz-opcao-texto">Até R$ 350</span>
+            <span class="quiz-opcao-desc">Relação perfeita qualidade/preço</span>
+          </button>
+          <button class="quiz-opcao" data-campo="preco_faixa" data-valor="ate_500" id="opcao-preco-3" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">🧡</span>
+            <span class="quiz-opcao-texto">Até R$ 500</span>
+            <span class="quiz-opcao-desc">Premium, alta qualidade</span>
+          </button>
+          <button class="quiz-opcao" data-campo="preco_faixa" data-valor="acima_500" id="opcao-preco-4" aria-pressed="false">
+            <span class="quiz-opcao-icone" aria-hidden="true">💎</span>
+            <span class="quiz-opcao-texto">Acima de R$ 500</span>
+            <span class="quiz-opcao-desc">Luxo absoluto</span>
+          </button>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(6)" id="voltar-6">← Voltar</button>
+          <button class="btn btn-primario" id="prox-6" onclick="proximaEtapa(6)" disabled>
+            Próximo →
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== ETAPA 7 — Perfume Famoso ===== -->
+      <div class="quiz-etapa" id="etapa-7" data-etapa="7">
+        <div class="quiz-etapa-badge">Etapa 7 de 7 • Referência (Mais Importante!)</div>
+        <h2 class="quiz-pergunta">Qual perfume você usa ou gosta?</h2>
+        <p class="quiz-subpergunta">
+          Isso nos ajuda a encontrar perfumes árabes similares ao que você já ama!
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <textarea
+            class="quiz-campo-livre"
+            id="campo-perfume-famoso"
+            rows="3"
+            placeholder="Ex: Sauvage, La Vie Est Belle, Good Girl, One Million..."
+            aria-label="Digite o nome do perfume que você usa ou gosta"
+          ></textarea>
+          <div class="quiz-campo-exemplos" aria-label="Exemplos de perfumes">
+            <% const exemplos = ['Dior Sauvage', 'Bleu de Chanel', 'One Million', 'Invictus', 'La Vie Est Belle', 'Good Girl', 'Baccarat Rouge 540', 'Flowerbomb', '212 Sexy']; %>
+            <% exemplos.forEach((ex, i) => { %>
+              <button class="quiz-campo-exemplo" onclick="preencherExemplo('<%= ex %>')" id="exemplo-<%= i %>" type="button"><%= ex %></button>
+            <% }) %>
+          </div>
+        </div>
+
+        <div class="quiz-nav">
+          <button class="btn btn-ghost" onclick="etapaAnterior(7)" id="voltar-7">← Voltar</button>
+          <div style="display:flex;align-items:center;gap:1rem;">
+            <span class="quiz-nav-pular" onclick="enviarQuiz()" id="pular-7">Pular e ver resultados</span>
+            <button class="btn btn-primario" onclick="enviarQuiz()" id="btn-enviar-quiz">
+              ✨ Ver Minhas Recomendações
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- fim quiz-form -->
+
+    <!-- ===== LOADING ===== -->
+    <div class="quiz-loading" id="quiz-loading" role="status" aria-live="polite">
+      <div class="quiz-loading-aneis" aria-hidden="true">
+        <div class="quiz-loading-anel"></div>
+        <div class="quiz-loading-anel"></div>
+        <div class="quiz-loading-anel"></div>
+      </div>
+      <h2 class="quiz-loading-titulo">Analisando seu perfil...</h2>
+      <p class="quiz-loading-texto">Encontrando as melhores fragrâncias para você</p>
+    </div>
+
+    <!-- ===== RESULTADO ===== -->
+    <div class="quiz-resultado" id="quiz-resultado" aria-live="polite">
+      <div class="quiz-resultado-header">
+        <div class="quiz-resultado-tag">Seu resultado</div>
+        <h2 class="quiz-resultado-titulo">
+          Suas <span class="texto-dourado">recomendações personalizadas</span>
+        </h2>
+        <p class="subtitulo">Baseado no seu perfil olfativo único</p>
+      </div>
+
+      <div class="resultado-cards" id="resultado-cards">
+        <!-- Preenchido via JavaScript -->
+      </div>
+
+      <div style="text-align:center;margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--preto-borda);">
+        <p style="color:var(--branco-40);font-size:0.875rem;margin-bottom:1rem;">
+          Quer explorar mais opções?
+        </p>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <button class="btn btn-ghost" onclick="reiniciarQuiz()" id="btn-reiniciar">
+            🔄 Refazer o Quiz
+          </button>
+          <a href="/catalogo" class="btn btn-secundario" id="btn-ver-catalogo-quiz">
+            Ver Catálogo Completo
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- fim quiz-container -->
+</div><!-- fim quiz-pagina -->
+
+<script>
+// ============================================================
+// QUIZ — Sistema completo
+// ============================================================
+const respostas = {
+  genero: null,
+  intensidade: null,
+  estilo: [],
+  ocasiao: [],
+  familia: [],
+  preco_faixa: null,
+  perfume_famoso: ''
+};
+
+const multiSelect = ['estilo', 'ocasiao', 'familia'];
+const TOTAL_ETAPAS = 7;
+let etapaAtual = 1;
+
+// Inicializa os listeners das opções
+document.querySelectorAll('.quiz-opcao').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const campo = btn.dataset.campo;
+    const valor = btn.dataset.valor;
+
+    if (multiSelect.includes(campo)) {
+      // Multi-select
+      btn.classList.toggle('selecionada');
+      const isSelected = btn.classList.contains('selecionada');
+      btn.setAttribute('aria-pressed', isSelected ? 'true' : 'false');
+
+      if (isSelected) {
+        if (!respostas[campo].includes(valor)) respostas[campo].push(valor);
+      } else {
+        respostas[campo] = respostas[campo].filter(v => v !== valor);
+      }
+      // Para multi: habilita próximo se pelo menos 1 selecionado
+      atualizarBotaoProx(btn.closest('.quiz-etapa').dataset.etapa);
+    } else {
+      // Single select
+      const etapa = btn.closest('.quiz-etapa');
+      etapa.querySelectorAll('.quiz-opcao').forEach(b => {
+        b.classList.remove('selecionada');
+        b.setAttribute('aria-pressed', 'false');
+      });
+      btn.classList.add('selecionada');
+      btn.setAttribute('aria-pressed', 'true');
+      respostas[campo] = valor;
+      atualizarBotaoProx(etapa.dataset.etapa);
+    }
+  });
+});
+
+function atualizarBotaoProx(etapa) {
+  const btn = document.getElementById('prox-' + etapa);
+  if (!btn) return;
+  let habilitado = false;
+
+  if (etapa == 1) habilitado = respostas.genero !== null;
+  else if (etapa == 2) habilitado = respostas.intensidade !== null;
+  else if (etapa == 3) habilitado = respostas.estilo.length > 0;
+  else if (etapa == 4) habilitado = respostas.ocasiao.length > 0;
+  else if (etapa == 5) habilitado = respostas.familia.length > 0;
+  else if (etapa == 6) habilitado = respostas.preco_faixa !== null;
+
+  btn.disabled = !habilitado;
+}
+
+function proximaEtapa(atual) {
+  const etapaEl = document.getElementById('etapa-' + atual);
+  const proximaEl = document.getElementById('etapa-' + (atual + 1));
+  if (!proximaEl) return;
+
+  etapaEl.classList.remove('ativa');
+  proximaEl.classList.add('ativa');
+  etapaAtual = atual + 1;
+  atualizarProgresso();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function etapaAnterior(atual) {
+  const etapaEl = document.getElementById('etapa-' + atual);
+  const anteriorEl = document.getElementById('etapa-' + (atual - 1));
+  if (!anteriorEl) return;
+
+  etapaEl.classList.remove('ativa');
+  anteriorEl.classList.add('ativa');
+  etapaAtual = atual - 1;
+  atualizarProgresso();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function pularEtapa(etapa) {
+  proximaEtapa(etapa);
+}
+
+function atualizarProgresso() {
+  const pct = Math.round((etapaAtual / TOTAL_ETAPAS) * 100);
+  document.getElementById('quiz-barra-fill').style.width = pct + '%';
+  document.getElementById('quiz-barra-fill').parentElement.setAttribute('aria-valuenow', pct);
+  document.getElementById('quiz-etapa-atual').textContent = etapaAtual;
+}
+
+function preencherExemplo(texto) {
+  document.getElementById('campo-perfume-famoso').value = texto;
+}
+
+async function enviarQuiz() {
+  respostas.perfume_famoso = document.getElementById('campo-perfume-famoso').value.trim();
+
+  // Mostra loading
+  document.getElementById('quiz-form').style.display = 'none';
+  document.getElementById('quiz-loading').classList.add('ativo');
+
+  try {
+    const resp = await fetch('/api/recomendacoes', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(respostas)
+    });
+    const dados = await resp.json();
+
+    if (!dados.recomendacoes || dados.recomendacoes.length === 0) {
+      throw new Error('Sem resultados');
+    }
+
+    exibirResultados(dados.recomendacoes);
+  } catch (e) {
+    console.error('Erro ao buscar recomendações:', e);
+    // fallback: mostra mensagem de erro amigável
+    document.getElementById('quiz-loading').classList.remove('ativo');
+    document.getElementById('quiz-form').style.display = 'block';
+    alert('Ocorreu um erro. Por favor, tente novamente.');
+  }
+}
+
+function exibirResultados(recomendacoes) {
+  document.getElementById('quiz-loading').classList.remove('ativo');
+
+  const container = document.getElementById('resultado-cards');
+  container.innerHTML = '';
+
+  const ranks = [
+    { label: '🏆 Melhor Combinação', classe: 'primeira' },
+    { label: '🥈 Segunda Opção', classe: 'segunda' },
+    { label: '🥉 Alternativa Premium', classe: 'terceira' }
+  ];
+
+  recomendacoes.slice(0, 3).forEach((p, idx) => {
+    const rank = ranks[idx];
+    const generoLabel = p.genero === 'masculino' ? 'Masculino' : p.genero === 'feminino' ? 'Feminino' : 'Unissex';
+    const score = Math.min(100, Math.round(p.score));
+    const fixacaoPct = ((p.fixacao || 3) / 5) * 100;
+    const projecaoPct = ((p.projecao || 3) / 5) * 100;
+
+    const motivo = gerarMotivo(p, respostas);
+
+    const similaresHtml = (p.similares_famosos || []).length > 0
+      ? `<div class="produto-similares-famosos" style="margin-bottom:1rem;">
+          <div class="produto-similares-titulo">Lembra</div>
+          <div class="produto-similares-lista">
+            ${p.similares_famosos.map(s => `<span class="produto-similar-tag">${s}</span>`).join('')}
+          </div>
+        </div>` : '';
+
+    const waMensagem = encodeURIComponent(`Olá, Neide Perfumes! Fiz o quiz e quero saber mais sobre o perfume "${p.nome}". Vi que é recomendado para mim!`);
+    const waLink = `https://wa.me/<%= config.whatsapp_contato %>?text=${waMensagem}`;
+
+    container.innerHTML += `
+      <article class="resultado-card" aria-label="${p.nome}">
+        <div class="resultado-card-imagem" style="position:relative;">
+          <div class="resultado-card-rank" style="position:absolute;top:12px;left:12px;z-index:3;">
+            <span class="resultado-card-rank-badge ${rank.classe}">${rank.label}</span>
+          </div>
+          <div class="resultado-card-placeholder">
+            <div class="resultado-card-placeholder-icone" aria-hidden="true">🌹</div>
+          </div>
+        </div>
+        <div class="resultado-card-info">
+          <div class="resultado-card-marca">${p.marca_nome || 'Importado'}</div>
+          <h3 class="resultado-card-nome">${p.nome}</h3>
+          <div class="score-compat">
+            <span>Compatibilidade:</span>
+            <span class="score-valor">${score}%</span>
+          </div>
+          <div class="resultado-card-preco">
+            ${p.preco_sob_consulta ? 'Sob Consulta' : 'R$ ' + (p.preco || 0).toLocaleString('pt-BR', {minimumFractionDigits: 0})}
+          </div>
+          <div class="resultado-card-motivo">${motivo}</div>
+          ${similaresHtml}
+          <div class="resultado-card-metricas">
+            <div class="metrica">
+              <span class="metrica-label">Fixação</span>
+              <div class="metrica-barra"><div class="metrica-barra-fill" style="width:${fixacaoPct}%"></div></div>
+            </div>
+            <div class="metrica">
+              <span class="metrica-label">Projeção</span>
+              <div class="metrica-barra"><div class="metrica-barra-fill" style="width:${projecaoPct}%"></div></div>
+            </div>
+          </div>
+          <div class="resultado-card-acoes">
+            <a href="${waLink}" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer" id="resultado-wa-${idx}" style="flex:1;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Quero esse perfume
+            </a>
+            <a href="/perfume/${p.slug}" class="btn btn-ghost" id="resultado-ver-${idx}">Ver detalhes</a>
+          </div>
+        </div>
+      </article>
+    `;
+  });
+
+  document.getElementById('quiz-resultado').classList.add('ativo');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function gerarMotivo(perfume, respostas) {
+  const motivos = [];
+
+  if (respostas.genero && (perfume.genero === respostas.genero || perfume.genero === 'unissex')) {
+    motivos.push('combina com seu gênero');
+  }
+  if (respostas.familia && respostas.familia.includes(perfume.familia_olfativa)) {
+    motivos.push(`tem notas ${perfume.familia_olfativa}s que você adora`);
+  }
+  if (respostas.intensidade && perfume.intensidade === respostas.intensidade) {
+    motivos.push(`tem a intensidade ${respostas.intensidade} que você prefere`);
+  }
+  if (respostas.perfume_famoso && (perfume.similares_famosos || []).some(s =>
+    s.toLowerCase().includes(respostas.perfume_famoso.toLowerCase().split(' ')[0]))) {
+    motivos.push(`é muito similar ao ${respostas.perfume_famoso} que você já conhece`);
+  }
+  if (respostas.ocasiao && respostas.ocasiao.some(o => (perfume.ocasiao || []).includes(o))) {
+    motivos.push('é perfeito para a ocasião escolhida');
+  }
+
+  if (motivos.length === 0) {
+    return `${perfume.nome} é uma excelente escolha com ótima fixação e projeção, ideal para quem busca qualidade e exclusividade.`;
+  }
+
+  return `Este perfume foi selecionado porque ${motivos.join(', ')}.`;
+}
+
+function reiniciarQuiz() {
+  // Reset respostas
+  respostas.genero = null;
+  respostas.intensidade = null;
+  respostas.estilo = [];
+  respostas.ocasiao = [];
+  respostas.familia = [];
+  respostas.preco_faixa = null;
+  respostas.perfume_famoso = '';
+
+  // Reset UI
+  document.querySelectorAll('.quiz-opcao').forEach(btn => {
+    btn.classList.remove('selecionada');
+    btn.setAttribute('aria-pressed', 'false');
+  });
+  document.getElementById('campo-perfume-famoso').value = '';
+  document.querySelectorAll('.quiz-etapa').forEach(e => e.classList.remove('ativa'));
+  document.getElementById('etapa-1').classList.add('ativa');
+  document.querySelectorAll('[id^="prox-"]').forEach(b => b.disabled = true);
+
+  etapaAtual = 1;
+  atualizarProgresso();
+
+  document.getElementById('quiz-resultado').classList.remove('ativo');
+  document.getElementById('quiz-form').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<%- include('partials/footer') %>

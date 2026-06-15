@@ -1,0 +1,446 @@
+<%- include('partials/header', {
+  meta: {
+    title: 'Neide Perfumes Importados | Descubra seu Perfume Árabe Ideal',
+    description: 'Perfumes árabes originais com envio para todo o Brasil. Lattafa, Maison Alhambra, Armaf, Afnan e muito mais. Faça o quiz e receba recomendações personalizadas.',
+    canonical: '/'
+  },
+  config
+}) %>
+
+<!-- =============================================
+     HERO
+     ============================================= -->
+<section class="hero" id="hero" aria-label="Seção principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <!-- Partículas decorativas -->
+  <div class="hero-particulas" aria-hidden="true">
+    <% for(let i = 0; i < 12; i++) { %>
+    <div class="hero-particula" style="left:<%= Math.random()*90+5 %>%;top:<%= Math.random()*80+10 %>%;animation-delay:<%= Math.random()*5 %>s;animation-duration:<%= 4+Math.random()*4 %>s;"></div>
+    <% } %>
+  </div>
+
+  <!-- Imagem de fundo direita -->
+  <div class="hero-imagem" aria-hidden="true">
+    <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,168,76,0.03) 0%,transparent 60%);display:flex;align-items:center;justify-content:center;">
+      <div style="font-size:clamp(12rem,25vw,20rem);opacity:0.06;user-select:none;line-height:1;">🌹</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-conteudo">
+      <!-- Badge -->
+      <div class="hero-badge animar-entrada">
+        <div class="hero-badge-ponto" aria-hidden="true"></div>
+        <span class="hero-badge-texto">Perfumes Árabes Originais • Envio para todo o Brasil</span>
+      </div>
+
+      <!-- Título principal -->
+      <h1 class="hero-titulo animar-entrada animar-entrada-delay-1">
+        Descubra seu<br>
+        <em>perfume árabe</em><br>
+        ideal
+      </h1>
+
+      <!-- Subtítulo -->
+      <p class="hero-subtitulo animar-entrada animar-entrada-delay-2">
+        Responda algumas perguntas e receba recomendações personalizadas com base no seu gosto, estilo e perfumes favoritos.
+      </p>
+
+      <!-- Botões de ação -->
+      <div class="hero-acoes animar-entrada animar-entrada-delay-3">
+        <a href="/quiz" class="btn btn-primario" id="hero-btn-quiz" aria-label="Fazer o quiz de recomendação de perfumes">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+          Encontrar Meu Perfume
+        </a>
+        <a href="/catalogo" class="btn btn-secundario" id="hero-btn-catalogo">
+          Ver Catálogo
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats animar-entrada animar-entrada-delay-4">
+        <div>
+          <div class="hero-stat-numero">100+</div>
+          <div class="hero-stat-label">Fragrâncias</div>
+        </div>
+        <div>
+          <div class="hero-stat-numero">7</div>
+          <div class="hero-stat-label">Marcas Exclusivas</div>
+        </div>
+        <div>
+          <div class="hero-stat-numero">100%</div>
+          <div class="hero-stat-label">Originais</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="hero-scroll" aria-hidden="true">
+    <span class="hero-scroll-texto">Explore</span>
+    <div class="hero-scroll-linha"></div>
+  </div>
+</section>
+
+<!-- =============================================
+     BARRA DE BENEFÍCIOS
+     ============================================= -->
+<section class="beneficios-bar" aria-label="Benefícios">
+  <div class="container">
+    <div class="beneficios-inner">
+      <div class="beneficio-item">
+        <span class="beneficio-icone" aria-hidden="true">✅</span>
+        <span class="beneficio-texto">Perfumes 100% Originais</span>
+      </div>
+      <div class="beneficio-item">
+        <span class="beneficio-icone" aria-hidden="true">🚚</span>
+        <span class="beneficio-texto">Envio para todo o Brasil</span>
+      </div>
+      <div class="beneficio-item">
+        <span class="beneficio-icone" aria-hidden="true">💬</span>
+        <span class="beneficio-texto">Atendimento Personalizado</span>
+      </div>
+      <div class="beneficio-item">
+        <span class="beneficio-icone" aria-hidden="true">💎</span>
+        <span class="beneficio-texto">Melhor Custo-Benefício</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     CONVITE AO QUIZ
+     ============================================= -->
+<section class="secao secao-quiz-cta" id="secao-quiz" aria-label="Descubra seu perfume ideal">
+  <div class="container">
+    <div class="quiz-cta-grid">
+
+      <!-- Esquerda: texto -->
+      <div>
+        <div class="label-categoria animar-entrada">Consultor Virtual de Perfumes</div>
+        <div class="linha-dourada-esq animar-entrada animar-entrada-delay-1"></div>
+        <h2 class="quiz-cta-titulo animar-entrada animar-entrada-delay-1">
+          Qual perfume árabe combina com você?
+        </h2>
+        <p class="quiz-cta-texto animar-entrada animar-entrada-delay-2">
+          Nosso sistema analisa seu estilo, ocasião de uso e perfumes favoritos para recomendar as fragrâncias perfeitas para você. Em menos de 2 minutos.
+        </p>
+
+        <div class="quiz-beneficios animar-entrada animar-entrada-delay-2">
+          <div class="quiz-beneficio">
+            <div class="quiz-beneficio-icone" aria-hidden="true">🎯</div>
+            <span>Recomendação personalizada baseada nos seus perfumes favoritos</span>
+          </div>
+          <div class="quiz-beneficio">
+            <div class="quiz-beneficio-icone" aria-hidden="true">⚡</div>
+            <span>Resultado em menos de 2 minutos</span>
+          </div>
+          <div class="quiz-beneficio">
+            <div class="quiz-beneficio-icone" aria-hidden="true">🌹</div>
+            <span>Compare com perfumes famosos que você já conhece</span>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <a href="/quiz" class="btn btn-primario" id="quiz-cta-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+            Começar o Quiz Gratuito
+          </a>
+        </div>
+      </div>
+
+      <!-- Direita: preview do quiz -->
+      <div class="quiz-preview animar-entrada animar-entrada-delay-3" aria-hidden="true">
+        <div class="label-categoria" style="margin-bottom: 1rem;">Perguntas do Quiz</div>
+        <div class="quiz-preview-passos">
+          <div class="quiz-preview-passo ativo">
+            <div class="quiz-preview-numero">1</div>
+            <span>Para quem é o perfume? (Homem / Mulher / Unissex)</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">2</div>
+            <span>Qual intensidade prefere?</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">3</div>
+            <span>Qual estilo combina mais com você?</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">4</div>
+            <span>Para qual ocasião?</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">5</div>
+            <span>Família olfativa preferida?</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">6</div>
+            <span>Faixa de preço?</span>
+          </div>
+          <div class="quiz-preview-passo">
+            <div class="quiz-preview-numero">7</div>
+            <span>Qual perfume famoso você usa hoje?</span>
+          </div>
+        </div>
+        <a href="/quiz" class="btn btn-primario" style="width:100%;margin-top:1rem;" id="quiz-preview-btn">
+          Fazer o Quiz →
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     PERFUMES EM DESTAQUE
+     ============================================= -->
+<section class="secao" id="destaques" aria-label="Perfumes em destaque">
+  <div class="container">
+
+    <div class="texto-centro" style="margin-bottom: 3rem;">
+      <div class="label-categoria animar-entrada">Seleção Especial</div>
+      <div class="linha-dourada animar-entrada animar-entrada-delay-1"></div>
+      <h2 class="titulo-secao animar-entrada animar-entrada-delay-1">
+        Perfumes em <span class="texto-dourado">Destaque</span>
+      </h2>
+      <p class="subtitulo animar-entrada animar-entrada-delay-2" style="max-width:500px;margin:1rem auto 0;">
+        As fragrâncias mais amadas pelos nossos clientes
+      </p>
+    </div>
+
+    <!-- Tabs de filtro -->
+    <div class="destaques-tabs" role="tablist" aria-label="Filtrar destaques">
+      <button class="destaque-tab ativo" data-tab="todos" role="tab" aria-selected="true" id="tab-todos">Todos</button>
+      <button class="destaque-tab" data-tab="masculino" role="tab" aria-selected="false" id="tab-masculino">Masculinos</button>
+      <button class="destaque-tab" data-tab="feminino" role="tab" aria-selected="false" id="tab-feminino">Femininos</button>
+      <button class="destaque-tab" data-tab="unissex" role="tab" aria-selected="false" id="tab-unissex">Unissex</button>
+    </div>
+
+    <!-- Grid de perfumes -->
+    <div class="grade-perfumes" id="grade-destaques" role="tabpanel">
+      <% if (perfumes && perfumes.length > 0) { %>
+        <% perfumes.slice(0, 8).forEach((perfume, idx) => { %>
+          <%
+            const marcaDoPerfume = marcas ? marcas.find(m => m.id_marca === perfume.id_marca) : null;
+            const nomeMarca = marcaDoPerfume ? marcaDoPerfume.nome : 'Importado';
+            const genero = perfume.genero || 'unissex';
+            const familia = perfume.familia_olfativa || '';
+            const preco = perfume.preco || 0;
+            const slug = perfume.slug;
+          %>
+          <article class="perfume-card animar-entrada animar-entrada-delay-<%= (idx % 4) + 1 %>"
+                   data-genero="<%= genero %>"
+                   data-slug="<%= slug %>"
+                   aria-label="<%= perfume.nome %>">
+            <!-- Imagem -->
+            <a href="/perfume/<%= slug %>" class="perfume-card-imagem" aria-label="Ver detalhes de <%= perfume.nome %>">
+              <% if (perfume.imagem_url) { %>
+                <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" class="perfume-card-imagem-img" loading="lazy">
+              <% } else { %>
+                <div class="perfume-card-placeholder shimmer">
+                  <div class="perfume-placeholder-icone" aria-hidden="true">🌹</div>
+                  <div class="perfume-placeholder-nome"><%= perfume.nome %></div>
+                </div>
+              <% } %>
+              <div class="perfume-card-badges">
+                <% if (genero === 'masculino') { %>
+                  <span class="badge badge-genero-m">Masculino</span>
+                <% } else if (genero === 'feminino') { %>
+                  <span class="badge badge-genero-f">Feminino</span>
+                <% } else { %>
+                  <span class="badge badge-genero-u">Unissex</span>
+                <% } %>
+                <% if (perfume.destaque) { %>
+                  <span class="badge badge-destaque">Destaque</span>
+                <% } %>
+              </div>
+            </a>
+
+            <!-- Info -->
+            <div class="perfume-card-info">
+              <div class="perfume-card-marca"><%= nomeMarca %></div>
+              <a href="/perfume/<%= slug %>" class="perfume-card-nome"><%= perfume.nome %></a>
+              <% if (familia) { %>
+                <div class="perfume-card-familia"><%= familia %></div>
+              <% } %>
+              <div class="perfume-card-footer">
+                <div class="perfume-card-preco">
+                  <% if (perfume.preco_sob_consulta) { %>
+                    Sob Consulta
+                  <% } else { %>
+                    R$ <%= preco.toLocaleString('pt-BR', {minimumFractionDigits: 0}) %>
+                  <% } %>
+                </div>
+                <a href="/perfume/<%= slug %>" class="perfume-card-botao" aria-label="Ver detalhes de <%= perfume.nome %>">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        <% }) %>
+      <% } else { %>
+        <div class="sem-resultados visivel" style="grid-column:1/-1;">
+          <div class="sem-resultados-icone">🌹</div>
+          <p class="sem-resultados-titulo">Em breve</p>
+          <p class="sem-resultados-texto">Estamos preparando nosso catálogo. <a href="https://wa.me/<%= config.whatsapp_contato %>" style="color:var(--dourado)">Fale conosco</a> para saber mais.</p>
+        </div>
+      <% } %>
+    </div>
+
+    <div class="texto-centro" style="margin-top: 2.5rem;">
+      <a href="/catalogo" class="btn btn-secundario" id="btn-ver-todos">
+        Ver todos os perfumes
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- =============================================
+     POR QUÊ PERFUMES ÁRABES?
+     ============================================= -->
+<section class="secao secao-quiz-cta" aria-label="Por que escolher perfumes árabes">
+  <div class="container">
+    <div class="texto-centro" style="margin-bottom: 3rem;">
+      <div class="label-categoria animar-entrada">Entenda a Diferença</div>
+      <div class="linha-dourada animar-entrada animar-entrada-delay-1"></div>
+      <h2 class="titulo-secao animar-entrada animar-entrada-delay-1">
+        Por que escolher<br><span class="texto-dourado">perfumes árabes?</span>
+      </h2>
+    </div>
+    <div class="porque-grid">
+      <div class="porque-card animar-entrada">
+        <span class="porque-icone" aria-hidden="true">⏳</span>
+        <h3 class="porque-titulo">Fixação Superior</h3>
+        <p class="porque-texto">Os perfumes árabes utilizam técnicas milenares com ingredientes como Oud, Âmbar e resinas naturais que garantem fixação de 8 a 24 horas.</p>
+      </div>
+      <div class="porque-card animar-entrada animar-entrada-delay-1">
+        <span class="porque-icone" aria-hidden="true">💰</span>
+        <h3 class="porque-titulo">Custo-Benefício Excepcional</h3>
+        <p class="porque-texto">Fragrâncias que seriam vendidas por R$ 800-2.000 em marcas europeias custam entre R$ 250 e R$ 500 nas melhores casas árabes.</p>
+      </div>
+      <div class="porque-card animar-entrada animar-entrada-delay-2">
+        <span class="porque-icone" aria-hidden="true">🌹</span>
+        <h3 class="porque-titulo">Exclusividade</h3>
+        <p class="porque-texto">Fragrâncias que poucos conhecem no Brasil, mas que geram elogios imediatos. Tenha um perfume diferente de todos ao redor.</p>
+      </div>
+      <div class="porque-card animar-entrada animar-entrada-delay-1">
+        <span class="porque-icone" aria-hidden="true">🔬</span>
+        <h3 class="porque-titulo">Ingredientes Nobres</h3>
+        <p class="porque-texto">Oud, Rosa de Taif, Saffron, Âmbar, Baunilha Natural. Ingredientes raros usados há séculos pela realeza árabe.</p>
+      </div>
+      <div class="porque-card animar-entrada animar-entrada-delay-2">
+        <span class="porque-icone" aria-hidden="true">🎁</span>
+        <h3 class="porque-titulo">Inspirados nos Clássicos</h3>
+        <p class="porque-texto">Muitos perfumes árabes são versões superiores de clássicos como Sauvage, Baccarat Rouge 540 e La Vie Est Belle, por uma fração do preço.</p>
+      </div>
+      <div class="porque-card animar-entrada animar-entrada-delay-3">
+        <span class="porque-icone" aria-hidden="true">📦</span>
+        <h3 class="porque-titulo">Envio para Todo Brasil</h3>
+        <p class="porque-texto">Receba seus perfumes com segurança em todo território nacional. Atendimento via WhatsApp com consultoria especializada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     MARCAS
+     ============================================= -->
+<section class="secao-sm" aria-label="Marcas disponíveis">
+  <div class="container texto-centro">
+    <div class="label-categoria animar-entrada" style="margin-bottom: 0.5rem;">Trabalhamos com as melhores marcas árabes</div>
+    <div class="linha-dourada animar-entrada animar-entrada-delay-1"></div>
+    <div class="marcas-grid" style="margin-top: 2rem;">
+      <% const marcasDestaque = ['Lattafa', 'Maison Alhambra', 'Armaf', 'Afnan', 'Al Wataniah', 'Asdaaf', 'Ard Al Zaafaran', 'Orientica']; %>
+      <% marcasDestaque.forEach((nome, idx) => { %>
+        <a href="/catalogo?marca=<%= encodeURIComponent(nome) %>" 
+           class="marca-pill animar-entrada"
+           id="marca-pill-<%= idx %>"
+           style="animation-delay: <%= idx * 0.05 %>s">
+          <%= nome %>
+        </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     CTA FINAL — WHATSAPP
+     ============================================= -->
+<section class="secao-md" aria-label="Entre em contato">
+  <div class="container">
+    <div style="
+      background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(201,168,76,0.02) 100%);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 24px;
+      padding: 4rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    ">
+      <div aria-hidden="true" style="position:absolute;top:-30px;right:-30px;font-size:10rem;opacity:0.04;">🌹</div>
+      <div class="label-categoria animar-entrada">Atendimento Especializado</div>
+      <div class="linha-dourada animar-entrada animar-entrada-delay-1"></div>
+      <h2 class="titulo-secao animar-entrada animar-entrada-delay-1" style="margin-bottom: 1rem;">
+        Tem dúvidas? <span class="texto-dourado">Fale conosco!</span>
+      </h2>
+      <p class="subtitulo animar-entrada animar-entrada-delay-2" style="max-width: 480px; margin: 0 auto 2rem;">
+        Nossa equipe especializada em perfumes árabes está pronta para ajudar você a encontrar a fragrância perfeita.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;" class="animar-entrada animar-entrada-delay-3">
+        <a href="/quiz" class="btn btn-primario" id="cta-final-quiz">
+          ✨ Fazer o Quiz
+        </a>
+        <a href="https://wa.me/<%= config.whatsapp_contato %>?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20um%20perfume!" 
+           class="btn btn-whatsapp" 
+           target="_blank"
+           id="cta-final-whatsapp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Falar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// Tabs de destaques (home)
+document.addEventListener('DOMContentLoaded', () => {
+  const tabs = document.querySelectorAll('.destaque-tab');
+  const cards = document.querySelectorAll('.perfume-card[data-genero]');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const filtro = tab.dataset.tab;
+      tabs.forEach(t => { t.classList.remove('ativo'); t.setAttribute('aria-selected','false'); });
+      tab.classList.add('ativo');
+      tab.setAttribute('aria-selected','true');
+
+      cards.forEach(card => {
+        if (filtro === 'todos' || card.dataset.genero === filtro) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+
+<%- include('partials/footer') %>

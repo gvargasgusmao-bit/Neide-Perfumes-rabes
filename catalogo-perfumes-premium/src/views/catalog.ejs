@@ -1,0 +1,422 @@
+<%- include('partials/header', {
+  meta: {
+    title: 'Catálogo de Perfumes Árabes | Neide Perfumes Importados',
+    description: 'Explore nosso catálogo completo de perfumes árabes originais. Lattafa, Maison Alhambra, Armaf, Afnan e muito mais. Filtre por gênero, família olfativa, preço e ocasião.',
+    canonical: '/catalogo'
+  },
+  config
+}) %>
+
+<div class="catalogo-pagina">
+  <div class="container">
+
+<%
+  const familiasPresentes = new Set(perfumes.map(p => p.familia_olfativa).filter(Boolean));
+  const ocasioesPresentes = new Set();
+  perfumes.forEach(p => {
+    if(p.ocasiao && Array.isArray(p.ocasiao)) p.ocasiao.forEach(o => ocasioesPresentes.add(o));
+  });
+
+  const MAPA_FAMILIAS = {
+    'doce': 'Doce', 'baunilha': 'Baunilha', 'frutada': 'Frutada',
+    'floral': 'Floral', 'amadeirada': 'Amadeirada', 'citrica': 'Cítrica',
+    'especiada': 'Especiada', 'oriental': 'Oriental', 'couro': 'Couro', 'oud': 'Oud'
+  };
+  const MAPA_OCASIOES = {
+    'trabalho': 'Trabalho', 'dia_a_dia': 'Dia a dia', 'academia': 'Academia',
+    'encontros': 'Encontros', 'eventos': 'Eventos', 'festas': 'Festas', 'uso_noturno': 'Uso Noturno'
+  };
+%>
+
+    <!-- Header -->
+    <div class="catalogo-header">
+      <h1 class="catalogo-titulo" id="catalogo-titulo-h1">
+        Catálogo de <span class="texto-dourado">Perfumes Árabes</span>
+      </h1>
+      <p class="catalogo-subtitulo" id="catalogo-subtitulo">
+        <%= perfumes.length %> fragrâncias disponíveis • Originais importados
+      </p>
+    </div>
+
+    <!-- Layout: Sidebar + Grid -->
+    <div class="catalogo-layout">
+
+      <!-- ===== SIDEBAR FILTROS ===== -->
+      <aside class="filtros-sidebar" id="filtros-sidebar" aria-label="Filtros de pesquisa">
+        <div class="filtros-titulo">
+          Filtros
+          <span class="filtros-limpar" onclick="limparFiltros()" id="btn-limpar-filtros">Limpar</span>
+        </div>
+
+        <!-- Gênero -->
+        <div class="filtro-grupo">
+          <div class="filtro-grupo-titulo">Gênero</div>
+          <div class="filtro-opcoes">
+            <label class="filtro-opcao">
+              <input type="checkbox" name="genero" value="masculino" id="filtro-masculino" onchange="aplicarFiltros()">
+              <span class="filtro-opcao-texto">👔 Masculino</span>
+            </label>
+            <label class="filtro-opcao">
+              <input type="checkbox" name="genero" value="feminino" id="filtro-feminino" onchange="aplicarFiltros()">
+              <span class="filtro-opcao-texto">👗 Feminino</span>
+            </label>
+            <label class="filtro-opcao">
+              <input type="checkbox" name="genero" value="unissex" id="filtro-unissex" onchange="aplicarFiltros()">
+              <span class="filtro-opcao-texto">✨ Unissex</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Família Olfativa -->
+        <div class="filtro-grupo">
+          <div class="filtro-grupo-titulo">Família Olfativa</div>
+          <div class="filtro-opcoes">
+            <div class="catalogo-filtros-lista">
+              <% Object.entries(MAPA_FAMILIAS).forEach(([val, label]) => { 
+                   if (familiasPresentes.has(val)) {
+              %>
+              <label class="filtro-opcao">
+                <input type="checkbox" name="familia" value="<%= val %>" id="filtro-<%= val %>" onchange="aplicarFiltros()">
+                <span class="filtro-opcao-custom"></span>
+                <span class="filtro-opcao-texto" style="text-transform:capitalize;"><%= label %></span>
+              </label>
+              <% } }) %>
+            </div>
+          </div>
+        </div>
+
+        <!-- Faixa de Preço -->
+        <div class="filtro-grupo">
+          <div class="filtro-grupo-titulo">Faixa de Preço</div>
+          <div class="filtro-preco-opcoes">
+            <div class="filtro-preco-pill" data-preco="ate_250" id="preco-ate-250" onclick="togglePreco(this)">Até R$250</div>
+            <div class="filtro-preco-pill" data-preco="ate_350" id="preco-ate-350" onclick="togglePreco(this)">Até R$350</div>
+            <div class="filtro-preco-pill" data-preco="ate_500" id="preco-ate-500" onclick="togglePreco(this)">Até R$500</div>
+            <div class="filtro-preco-pill" data-preco="acima_500" id="preco-acima-500" onclick="togglePreco(this)">Acima de R$500</div>
+          </div>
+        </div>
+
+        <!-- Ocasião -->
+        <div class="filtro-grupo">
+          <div class="filtro-grupo-titulo">Ocasião</div>
+          <div class="filtro-opcoes">
+            <div class="catalogo-filtros-lista">
+              <% Object.entries(MAPA_OCASIOES).forEach(([val, label]) => { 
+                   if (ocasioesPresentes.has(val)) {
+              %>
+              <label class="filtro-opcao">
+                <input type="checkbox" name="ocasiao" value="<%= val %>" id="filtro-oc-<%= val %>" onchange="aplicarFiltros()">
+                <span class="filtro-opcao-custom"></span>
+                <span class="filtro-opcao-texto"><%= label %></span>
+              </label>
+              <% } }) %>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marcas -->
+        <div class="filtro-grupo">
+          <div class="filtro-grupo-titulo">Marca</div>
+          <div class="filtro-opcoes">
+            <%
+              const marcasUnicas = [];
+              perfumes.forEach(p => {
+                const m = marcas.find(m => m.id_marca === p.id_marca);
+                if (m && !marcasUnicas.find(mu => mu.id === m.id_marca)) {
+                  marcasUnicas.push({ id: m.id_marca, nome: m.nome });
+                }
+              });
+              marcasUnicas.sort((a,b) => a.nome.localeCompare(b.nome));
+            %>
+            <% marcasUnicas.slice(0,8).forEach(m => { %>
+              <label class="filtro-opcao">
+                <input type="checkbox" name="marca" value="<%= m.id %>" id="filtro-marca-<%= m.id %>" onchange="aplicarFiltros()">
+                <span class="filtro-opcao-texto"><%= m.nome %></span>
+              </label>
+            <% }) %>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- ===== GRID PRINCIPAL ===== -->
+      <div>
+
+        <!-- Busca + Toolbar -->
+        <div class="catalogo-busca">
+          <svg class="catalogo-busca-icone" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            type="search"
+            class="catalogo-busca-input"
+            id="busca-input"
+            placeholder="Buscar por nome, marca, família olfativa..."
+            oninput="aplicarFiltros()"
+            aria-label="Buscar perfumes"
+          >
+        </div>
+
+        <div class="catalogo-toolbar">
+          <div class="catalogo-resultados-texto" id="contagem-resultados" aria-live="polite">
+            Mostrando todos os perfumes
+          </div>
+
+          <!-- Filtro mobile toggle -->
+          <button class="btn btn-ghost" style="display:none;" id="btn-filtros-mobile" onclick="toggleFiltrosMobile()" aria-label="Mostrar filtros">
+            ⚙️ Filtros
+          </button>
+
+          <select class="catalogo-ordenar" id="select-ordenar" onchange="aplicarFiltros()" aria-label="Ordenar resultados">
+            <option value="padrao">Ordenar</option>
+            <option value="preco_asc">Menor preço</option>
+            <option value="preco_desc">Maior preço</option>
+            <option value="nome_asc">A - Z</option>
+            <option value="nome_desc">Z - A</option>
+          </select>
+        </div>
+
+        <!-- Grid de Cards -->
+        <div class="grade-perfumes" id="grade-catalogo" role="list" aria-label="Lista de perfumes">
+          <% perfumes.forEach((perfume, idx) => { %>
+            <%
+              const marcaDoPerfume = marcas.find(m => m.id_marca === perfume.id_marca);
+              const nomeMarca = marcaDoPerfume ? marcaDoPerfume.nome : 'Importado';
+              const genero = perfume.genero || 'unissex';
+              const familia = perfume.familia_olfativa || '';
+              const preco = perfume.preco || 0;
+              const precoFaixa = perfume.preco_faixa || (preco <= 250 ? 'ate_250' : preco <= 350 ? 'ate_350' : preco <= 500 ? 'ate_500' : 'acima_500');
+              const ocasioes = (perfume.ocasiao || []).join(',');
+            %>
+            <article
+              class="perfume-card"
+              role="listitem"
+              data-nome="<%= perfume.nome.toLowerCase() %>"
+              data-marca="<%= nomeMarca.toLowerCase() %>"
+              data-marca-id="<%= perfume.id_marca %>"
+              data-genero="<%= genero %>"
+              data-familia="<%= familia %>"
+              data-preco="<%= preco %>"
+              data-preco-faixa="<%= precoFaixa %>"
+              data-ocasiao="<%= ocasioes %>"
+              data-fixacao="<%= perfume.fixacao || 3 %>"
+              aria-label="<%= perfume.nome %>"
+            >
+              <a href="/perfume/<%= perfume.slug %>" class="perfume-card-imagem" aria-label="Ver detalhes de <%= perfume.nome %>">
+                <% if (perfume.imagem_url) { %>
+                  <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" class="perfume-card-imagem-img" loading="lazy">
+                <% } else { %>
+                  <div class="perfume-card-placeholder shimmer">
+                    <div class="perfume-placeholder-icone" aria-hidden="true">🌹</div>
+                    <div class="perfume-placeholder-nome"><%= perfume.nome %></div>
+                  </div>
+                <% } %>
+                <div class="perfume-card-badges">
+                  <% if (genero === 'masculino') { %>
+                    <span class="badge badge-genero-m">Masculino</span>
+                  <% } else if (genero === 'feminino') { %>
+                    <span class="badge badge-genero-f">Feminino</span>
+                  <% } else { %>
+                    <span class="badge badge-genero-u">Unissex</span>
+                  <% } %>
+                  <% if (perfume.destaque) { %><span class="badge badge-destaque">⭐ Destaque</span><% } %>
+                </div>
+              </a>
+
+              <div class="perfume-card-info">
+                <div class="perfume-card-marca"><%= nomeMarca %></div>
+                <a href="/perfume/<%= perfume.slug %>" class="perfume-card-nome"><%= perfume.nome %></a>
+                <% if (familia) { %><div class="perfume-card-familia" style="text-transform:capitalize;"><%= familia %></div><% } %>
+                <div class="perfume-card-footer">
+                  <div class="perfume-card-preco">
+                    <% if (perfume.preco_sob_consulta) { %>
+                      Sob Consulta
+                    <% } else { %>
+                      R$ <%= preco.toLocaleString('pt-BR', {minimumFractionDigits: 0}) %>
+                    <% } %>
+                  </div>
+                  <a href="/perfume/<%= perfume.slug %>" class="perfume-card-botao" aria-label="Ver detalhes de <%= perfume.nome %>">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          <% }) %>
+        </div>
+
+        <!-- Sem resultados -->
+        <div class="sem-resultados" id="sem-resultados" role="status" aria-live="polite">
+          <div class="sem-resultados-icone" aria-hidden="true">🔍</div>
+          <h2 class="sem-resultados-titulo">Nenhum perfume encontrado</h2>
+          <p class="sem-resultados-texto">Tente ajustar os filtros ou <a href="/quiz" style="color:var(--dourado)">faça o quiz</a> para recomendações personalizadas.</p>
+          <br>
+          <button class="btn btn-ghost" onclick="limparFiltros()" id="sem-resultados-limpar">Limpar filtros</button>
+        </div>
+
+      </div><!-- fim col -->
+    </div><!-- fim layout -->
+
+    <!-- CTA WhatsApp -->
+    <div style="text-align:center;padding:4rem 0 2rem;">
+      <p style="color:var(--branco-40);margin-bottom:1rem;font-size:0.875rem;">Não encontrou o que procura?</p>
+      <a href="https://wa.me/<%= config.whatsapp_contato %>?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20encontrar%20um%20perfume!"
+         class="btn btn-whatsapp"
+         target="_blank"
+         id="catalogo-whatsapp-cta">
+        💬 Falar com especialista no WhatsApp
+      </a>
+    </div>
+
+  </div><!-- fim container -->
+</div><!-- fim catalogo-pagina -->
+
+<script>
+// ============================================================
+// CATÁLOGO — Filtros e busca client-side
+// ============================================================
+const TODOS_CARDS = Array.from(document.querySelectorAll('.perfume-card'));
+const MAPA_PRECO_MAX = { 'ate_250': 250, 'ate_350': 350, 'ate_500': 500, 'acima_500': Infinity };
+const MAPA_PRECO_MIN = { 'ate_250': 0, 'ate_350': 0, 'ate_500': 0, 'acima_500': 500 };
+
+let filtrosPreco = new Set();
+
+function togglePreco(el) {
+  const val = el.dataset.preco;
+  if (el.classList.contains('ativo')) {
+    el.classList.remove('ativo');
+    filtrosPreco.delete(val);
+  } else {
+    el.classList.add('ativo');
+    filtrosPreco.add(val);
+  }
+  aplicarFiltros();
+}
+
+function aplicarFiltros() {
+  const busca = document.getElementById('busca-input').value.toLowerCase().trim();
+  const generosAtivos = [...document.querySelectorAll('input[name="genero"]:checked')].map(i => i.value);
+  const familiasAtivas = [...document.querySelectorAll('input[name="familia"]:checked')].map(i => i.value);
+  const marcasAtivas = [...document.querySelectorAll('input[name="marca"]:checked')].map(i => i.value);
+  const ocasioesAtivas = [...document.querySelectorAll('input[name="ocasiao"]:checked')].map(i => i.value);
+  const ordenar = document.getElementById('select-ordenar').value;
+
+  let visiveis = TODOS_CARDS.filter(card => {
+    // Busca
+    if (busca) {
+      const nome = card.dataset.nome || '';
+      const marca = card.dataset.marca || '';
+      const familia = card.dataset.familia || '';
+      if (!nome.includes(busca) && !marca.includes(busca) && !familia.includes(busca)) return false;
+    }
+
+    // Gênero
+    if (generosAtivos.length > 0 && !generosAtivos.includes(card.dataset.genero)) return false;
+
+    // Família
+    if (familiasAtivas.length > 0 && !familiasAtivas.includes(card.dataset.familia)) return false;
+
+    // Marca
+    if (marcasAtivas.length > 0 && !marcasAtivas.includes(card.dataset.marcaId)) return false;
+
+    // Preço
+    if (filtrosPreco.size > 0) {
+      const preco = parseFloat(card.dataset.preco) || 0;
+      let passaPreco = false;
+      filtrosPreco.forEach(fp => {
+        if (preco >= MAPA_PRECO_MIN[fp] && (fp === 'acima_500' ? preco > 500 : preco <= MAPA_PRECO_MAX[fp])) {
+          passaPreco = true;
+        }
+      });
+      if (!passaPreco) return false;
+    }
+
+    // Ocasião
+    if (ocasioesAtivas.length > 0) {
+      const ocasioesCard = (card.dataset.ocasiao || '').split(',');
+      if (!ocasioesAtivas.some(o => ocasioesCard.includes(o))) return false;
+    }
+
+    return true;
+  });
+
+  // Ordenação
+  visiveis = visiveis.sort((a, b) => {
+    if (ordenar === 'preco_asc') return parseFloat(a.dataset.preco) - parseFloat(b.dataset.preco);
+    if (ordenar === 'preco_desc') return parseFloat(b.dataset.preco) - parseFloat(a.dataset.preco);
+    if (ordenar === 'nome_asc') return a.dataset.nome.localeCompare(b.dataset.nome);
+    if (ordenar === 'nome_desc') return b.dataset.nome.localeCompare(a.dataset.nome);
+    return 0;
+  });
+
+  // Mostrar/ocultar
+  const grade = document.getElementById('grade-catalogo');
+  TODOS_CARDS.forEach(c => { c.style.display = 'none'; });
+  visiveis.forEach(c => {
+    grade.appendChild(c);
+    c.style.display = '';
+  });
+
+  // Sem resultados
+  const semRes = document.getElementById('sem-resultados');
+  if (visiveis.length === 0) {
+    semRes.classList.add('visivel');
+  } else {
+    semRes.classList.remove('visivel');
+  }
+
+  // Contagem
+  document.getElementById('contagem-resultados').textContent =
+    `Mostrando ${visiveis.length} de ${TODOS_CARDS.length} perfumes`;
+}
+
+function limparFiltros() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(i => i.checked = false);
+  document.getElementById('busca-input').value = '';
+  document.getElementById('select-ordenar').value = 'padrao';
+  filtrosPreco.clear();
+  document.querySelectorAll('.filtro-preco-pill').forEach(p => p.classList.remove('ativo'));
+  aplicarFiltros();
+}
+
+function toggleFiltrosMobile() {
+  const sidebar = document.getElementById('filtros-sidebar');
+  sidebar.classList.toggle('aberto');
+}
+
+// Aplicar filtros iniciais via URL params
+(function iniciarFiltrosURL() {
+  const params = new URLSearchParams(window.location.search);
+  const genero = params.get('genero');
+  const familia = params.get('familia');
+  const marca = params.get('marca');
+
+  if (genero) {
+    const input = document.getElementById('filtro-' + genero);
+    if (input) { input.checked = true; }
+  }
+  if (familia) {
+    const input = document.getElementById('filtro-' + familia);
+    if (input) { input.checked = true; }
+  }
+  if (marca) {
+    // Marca por nome
+    document.querySelectorAll('input[name="marca"]').forEach(i => {
+      if (i.parentElement.querySelector('.filtro-opcao-texto')
+          .textContent.trim().toLowerCase().includes(marca.toLowerCase())) {
+        i.checked = true;
+      }
+    });
+  }
+
+  if (genero || familia || marca) aplicarFiltros();
+})();
+
+// Mobile: mostrar botão de filtros
+if (window.innerWidth <= 900) {
+  document.getElementById('btn-filtros-mobile').style.display = '';
+}
+</script>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,21 @@
+<%- include('partials/header', {
+  meta: { title: 'Página não encontrada | Neide Perfumes Importados', description: '' },
+  config
+}) %>
+
+<div class="pagina-404">
+  <div style="text-align:center;">
+    <div class="pagina-404-numero" aria-hidden="true">404</div>
+    <h1 class="titulo-secao" style="margin-bottom:1rem;">Página não encontrada</h1>
+    <p class="subtitulo" style="max-width:400px;margin:0 auto 2rem;">
+      Esta fragrância se perdeu no tempo. Que tal explorar nosso catálogo?
+    </p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="/" class="btn btn-primario" id="btn-404-home">← Voltar à Home</a>
+      <a href="/catalogo" class="btn btn-secundario" id="btn-404-catalogo">Ver Catálogo</a>
+      <a href="/quiz" class="btn btn-ghost" id="btn-404-quiz">Fazer o Quiz</a>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

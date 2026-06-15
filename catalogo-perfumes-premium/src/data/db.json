@@ -1,0 +1,1523 @@
+{
+  "configuracoes": {
+    "nome_marca": "Neide Perfumes Importados",
+    "whatsapp_contato": "5567984281754",
+    "mensagem_padrao": "Olá, Neide Perfumes Importados! Vi o site e quero saber mais sobre a fragrância "
+  },
+  "marcas": [
+    {
+      "id_marca": 1,
+      "nome": "Amouage",
+      "pais_origem": "Omã"
+    },
+    {
+      "id_marca": 2,
+      "nome": "Roja Parfums",
+      "pais_origem": "Inglaterra"
+    },
+    {
+      "id_marca": 3,
+      "nome": "Lattafa",
+      "pais_origem": "EAU"
+    },
+    {
+      "id_marca": 4,
+      "nome": "Maison Alhambra",
+      "pais_origem": "EAU"
+    },
+    {
+      "id_marca": 5,
+      "nome": "Al Wataniah",
+      "pais_origem": "EAU"
+    },
+    {
+      "id_marca": 6,
+      "nome": "Armaf",
+      "pais_origem": "EAU"
+    },
+    {
+      "id_marca": 7,
+      "nome": "Asdaaf",
+      "pais_origem": "EAU"
+    },
+    {
+      "id_marca": 8,
+      "nome": "Exclusivo Maison Núr",
+      "pais_origem": "Vários"
+    },
+    {
+      "id_marca": 9,
+      "nome": "Afnan"
+    },
+    {
+      "id_marca": 10,
+      "nome": "French Avenue"
+    },
+    {
+      "id_marca": 11,
+      "nome": "Ard Al Zaafaran"
+    },
+    {
+      "id_marca": 12,
+      "nome": "Orientica"
+    }
+  ],
+  "familias_olfativas": [
+    {
+      "id_familia": 1,
+      "nome": "floral"
+    },
+    {
+      "id_familia": 2,
+      "nome": "amadeirada"
+    },
+    {
+      "id_familia": 3,
+      "nome": "oriental"
+    },
+    {
+      "id_familia": 4,
+      "nome": "citrica"
+    },
+    {
+      "id_familia": 5,
+      "nome": "especiada"
+    },
+    {
+      "id_familia": 6,
+      "nome": "oud"
+    },
+    {
+      "id_familia": 7,
+      "nome": "doce"
+    },
+    {
+      "id_familia": 8,
+      "nome": "couro"
+    },
+    {
+      "id_familia": 9,
+      "nome": "frutada"
+    },
+    {
+      "id_familia": 10,
+      "nome": "baunilha"
+    }
+  ],
+  "perfumes": [
+    {
+      "id_perfume": 336,
+      "slug": "club-de-nuit-maleka-armaf",
+      "nome": "Club de Nuit Maleka Armaf",
+      "id_marca": 6,
+      "id_familia": 1,
+      "volume_ml": 100,
+      "preco": 450,
+      "preco_sob_consulta": false,
+      "status_estoque": "disponivel",
+      "seo_title": "Club de Nuit Maleka Armaf | Maison Núr",
+      "seo_description": "Descubra a sofisticação de Club de Nuit Maleka Armaf. Notas exclusivas na Maison Núr.",
+      "descricao_curta": "Uma assinatura olfativa de luxo e sofisticação.",
+      "descricao_longa": "Fragrância meticulosamente elaborada, perfeita para quem exige exclusividade e presença marcante.",
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Saffron"
+        ],
+        "coracao": [
+          "Rosa",
+          "Oud",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      },
+      "imagem_url": "/assets/images/optimized/club-de-nuit-maleka-armaf.webp",
+      "destaque": false,
+      "genero": "feminino",
+      "familia_olfativa": "floral",
+      "intensidade": "suave",
+      "fixacao": 3,
+      "projecao": 3,
+      "ocasiao": [
+        "trabalho"
+      ],
+      "estacao": [
+        "verao",
+        "outono"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "similares_famosos": [
+        "Chanel N°5",
+        "Creed Aventus for Her"
+      ],
+      "preco_faixa": "ate_500"
+    },
+    {
+      "id_perfume": 424,
+      "slug": "body-cream-asad-black",
+      "nome": "Body Cream Asad Black",
+      "id_marca": 8,
+      "id_familia": 1,
+      "volume_ml": 100,
+      "preco": 300,
+      "preco_sob_consulta": false,
+      "status_estoque": "disponivel",
+      "seo_title": "Body Cream Asad Black | Maison Núr",
+      "seo_description": "Descubra a sofisticação de Body Cream Asad Black. Notas exclusivas na Maison Núr.",
+      "descricao_curta": "Uma assinatura olfativa de luxo e sofisticação.",
+      "descricao_longa": "Fragrância meticulosamente elaborada, perfeita para quem exige exclusividade e presença marcante.",
+      "piramide_olfativa": {
+        "topo": [
+          "Notas de topo a definir"
+        ],
+        "coracao": [
+          "Notas de coração a definir"
+        ],
+        "fundo": [
+          "Notas de fundo a definir"
+        ]
+      },
+      "imagem_url": "/assets/images/optimized/body-cream-asad-black.webp",
+      "destaque": false,
+      "genero": "masculino",
+      "familia_olfativa": "especiada",
+      "intensidade": "moderada",
+      "fixacao": 4,
+      "projecao": 4,
+      "ocasiao": [
+        "dia_a_dia",
+        "academia"
+      ],
+      "estacao": [
+        "verao",
+        "outono"
+      ],
+      "estilo": [
+        "sedutor",
+        "sofisticado"
+      ],
+      "similares_famosos": [],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 34,
+      "slug": "lattafa-musamam-white-100-ml",
+      "nome": "Lattafa – Musamam White 100 ml",
+      "id_marca": 3,
+      "id_familia": 1,
+      "volume_ml": 100,
+      "preco": 550,
+      "preco_sob_consulta": false,
+      "status_estoque": "disponivel",
+      "seo_title": "Lattafa – Musamam White 100 ml | Maison Núr",
+      "seo_description": "Descubra a sofisticação de Lattafa – Musamam White 100 ml. Notas exclusivas na Maison Núr.",
+      "descricao_curta": "Uma assinatura olfativa de luxo e sofisticação.",
+      "descricao_longa": "Fragrância meticulosamente elaborada, perfeita para quem exige exclusividade e presença marcante.",
+      "piramide_olfativa": {
+        "topo": [
+          "Notas de topo a definir"
+        ],
+        "coracao": [
+          "Notas de coração a definir"
+        ],
+        "fundo": [
+          "Notas de fundo a definir"
+        ]
+      },
+      "imagem_url": "/assets/images/optimized/lattafa-musamam-white-100-ml.webp",
+      "destaque": false,
+      "genero": "unissex",
+      "familia_olfativa": "floral",
+      "intensidade": "forte",
+      "fixacao": 5,
+      "projecao": 5,
+      "ocasiao": [
+        "encontros",
+        "eventos",
+        "festas"
+      ],
+      "estacao": [
+        "verao",
+        "outono"
+      ],
+      "estilo": [
+        "jovem"
+      ],
+      "similares_famosos": [],
+      "preco_faixa": "acima_500"
+    },
+    {
+      "id_perfume": 8004,
+      "slug": "perfume-exclusivo-4",
+      "nome": "Perfume Árabe Exclusivo 4",
+      "id_marca": 1,
+      "preco": 195,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "doce",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-4.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno"
+      ],
+      "estilo": [
+        "luxuoso",
+        "executivo"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8005,
+      "slug": "perfume-exclusivo-5",
+      "nome": "Perfume Árabe Exclusivo 5",
+      "id_marca": 1,
+      "preco": 210,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "baunilha",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-5.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "casual"
+      ],
+      "intensidade": "suave",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8006,
+      "slug": "perfume-exclusivo-6",
+      "nome": "Perfume Árabe Exclusivo 6",
+      "id_marca": 1,
+      "preco": 225,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "frutada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-6.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia",
+        "encontros",
+        "eventos"
+      ],
+      "estilo": [
+        "elegante",
+        "sedutor"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8007,
+      "slug": "perfume-exclusivo-7",
+      "nome": "Perfume Árabe Exclusivo 7",
+      "id_marca": 1,
+      "preco": 240,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "floral",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-7.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas"
+      ],
+      "estilo": [
+        "sofisticado"
+      ],
+      "intensidade": "forte",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8008,
+      "slug": "perfume-exclusivo-8",
+      "nome": "Perfume Árabe Exclusivo 8",
+      "id_marca": 1,
+      "preco": 255,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "amadeirada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-8.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "trabalho"
+      ],
+      "estilo": [
+        "jovem",
+        "luxuoso"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8009,
+      "slug": "perfume-exclusivo-9",
+      "nome": "Perfume Árabe Exclusivo 9",
+      "id_marca": 1,
+      "preco": 270,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "citrica",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-9.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia",
+        "academia",
+        "encontros"
+      ],
+      "estilo": [
+        "executivo"
+      ],
+      "intensidade": "suave",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8010,
+      "slug": "perfume-exclusivo-10",
+      "nome": "Perfume Árabe Exclusivo 10",
+      "id_marca": 1,
+      "preco": 285,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "especiada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-10.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "eventos"
+      ],
+      "estilo": [
+        "casual",
+        "elegante"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8011,
+      "slug": "perfume-exclusivo-11",
+      "nome": "Perfume Árabe Exclusivo 11",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-11.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas",
+        "uso_noturno"
+      ],
+      "estilo": [
+        "sedutor"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8012,
+      "slug": "perfume-exclusivo-12",
+      "nome": "Perfume Árabe Exclusivo 12",
+      "id_marca": 1,
+      "preco": 315,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "couro",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-12.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia",
+        "academia"
+      ],
+      "estilo": [
+        "sofisticado",
+        "jovem"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8013,
+      "slug": "perfume-exclusivo-13",
+      "nome": "Perfume Árabe Exclusivo 13",
+      "id_marca": 1,
+      "preco": 330,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "oud",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-13.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros"
+      ],
+      "estilo": [
+        "luxuoso"
+      ],
+      "intensidade": "suave",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8014,
+      "slug": "perfume-exclusivo-14",
+      "nome": "Perfume Árabe Exclusivo 14",
+      "id_marca": 1,
+      "preco": 345,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "doce",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-14.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "eventos",
+        "festas"
+      ],
+      "estilo": [
+        "executivo",
+        "casual"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 9015,
+      "slug": "sabah-al-ward-al-wataniah",
+      "nome": "Sabah Al Ward Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "floral",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/sabah-al-ward-al-wataniah.webp",
+      "ocasiao": [
+        "uso_noturno",
+        "trabalho",
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8016,
+      "slug": "perfume-exclusivo-16",
+      "nome": "Perfume Árabe Exclusivo 16",
+      "id_marca": 1,
+      "preco": 375,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "baunilha",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-16.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia"
+      ],
+      "estilo": [
+        "sedutor",
+        "sofisticado"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8017,
+      "slug": "perfume-exclusivo-17",
+      "nome": "Perfume Árabe Exclusivo 17",
+      "id_marca": 1,
+      "preco": 390,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "frutada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-17.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros",
+        "eventos"
+      ],
+      "estilo": [
+        "jovem"
+      ],
+      "intensidade": "suave",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8018,
+      "slug": "perfume-exclusivo-18",
+      "nome": "Perfume Árabe Exclusivo 18",
+      "id_marca": 1,
+      "preco": 405,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "floral",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-18.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas",
+        "uso_noturno",
+        "trabalho"
+      ],
+      "estilo": [
+        "luxuoso",
+        "executivo"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8019,
+      "slug": "perfume-exclusivo-19",
+      "nome": "Perfume Árabe Exclusivo 19",
+      "id_marca": 1,
+      "preco": 420,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "amadeirada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-19.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "casual"
+      ],
+      "intensidade": "forte",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8020,
+      "slug": "perfume-exclusivo-20",
+      "nome": "Perfume Árabe Exclusivo 20",
+      "id_marca": 1,
+      "preco": 435,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "citrica",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-20.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante",
+        "sedutor"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8021,
+      "slug": "perfume-exclusivo-21",
+      "nome": "Perfume Árabe Exclusivo 21",
+      "id_marca": 1,
+      "preco": 450,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "especiada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-21.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "eventos",
+        "festas",
+        "uso_noturno"
+      ],
+      "estilo": [
+        "sofisticado"
+      ],
+      "intensidade": "suave",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8022,
+      "slug": "perfume-exclusivo-22",
+      "nome": "Perfume Árabe Exclusivo 22",
+      "id_marca": 1,
+      "preco": 465,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-22.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "trabalho"
+      ],
+      "estilo": [
+        "jovem",
+        "luxuoso"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8023,
+      "slug": "perfume-exclusivo-23",
+      "nome": "Perfume Árabe Exclusivo 23",
+      "id_marca": 1,
+      "preco": 480,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "couro",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-23.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia",
+        "academia"
+      ],
+      "estilo": [
+        "executivo"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8024,
+      "slug": "perfume-exclusivo-24",
+      "nome": "Perfume Árabe Exclusivo 24",
+      "id_marca": 1,
+      "preco": 495,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oud",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-24.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros",
+        "eventos",
+        "festas"
+      ],
+      "estilo": [
+        "casual",
+        "elegante"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 9025,
+      "slug": "bareeq-al-dhahab-al-wataniah",
+      "nome": "Bareeq Al Dhahab Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "amadeirada",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/bareeq-al-dhahab-al-wataniah.webp",
+      "ocasiao": [
+        "uso_noturno"
+      ],
+      "estilo": [
+        "sedutor"
+      ],
+      "intensidade": "suave",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 9026,
+      "slug": "club-de-nuit-intense-man-armaf",
+      "nome": "Club De Nuit Intense Man Armaf",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "citrica",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/club-de-nuit-intense-man-armaf.webp",
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "sofisticado",
+        "jovem"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8027,
+      "slug": "perfume-exclusivo-27",
+      "nome": "Perfume Árabe Exclusivo 27",
+      "id_marca": 1,
+      "preco": 540,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "doce",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-27.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia",
+        "encontros",
+        "eventos"
+      ],
+      "estilo": [
+        "luxuoso"
+      ],
+      "intensidade": "forte",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8028,
+      "slug": "perfume-exclusivo-28",
+      "nome": "Perfume Árabe Exclusivo 28",
+      "id_marca": 1,
+      "preco": 555,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "baunilha",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-28.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas"
+      ],
+      "estilo": [
+        "executivo",
+        "casual"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 51,
+      "slug": "al-wataniah-boraq-75-ml",
+      "nome": "Al Wataniah – Boraq 75 ml",
+      "id_marca": 5,
+      "id_familia": 1,
+      "volume_ml": 100,
+      "preco": 280,
+      "preco_sob_consulta": false,
+      "status_estoque": "disponivel",
+      "seo_title": "Al Wataniah – Boraq 75 ml | Maison Núr",
+      "seo_description": "Descubra a sofisticação de Al Wataniah – Boraq 75 ml. Notas exclusivas na Maison Núr.",
+      "descricao_curta": "Uma assinatura olfativa de luxo e sofisticação.",
+      "descricao_longa": "Fragrância meticulosamente elaborada, perfeita para quem exige exclusividade e presença marcante.",
+      "piramide_olfativa": {
+        "topo": [
+          "Notas de topo a definir"
+        ],
+        "coracao": [
+          "Notas de coração a definir"
+        ],
+        "fundo": [
+          "Notas de fundo a definir"
+        ]
+      },
+      "imagem_url": "/assets/images/optimized/al-wataniah-boraq-75-ml.webp",
+      "destaque": false,
+      "genero": "masculino",
+      "familia_olfativa": "amadeirada",
+      "intensidade": "suave",
+      "fixacao": 4,
+      "projecao": 4,
+      "ocasiao": [
+        "uso_noturno",
+        "trabalho"
+      ],
+      "estacao": [
+        "verao",
+        "outono"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "similares_famosos": [],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 8030,
+      "slug": "perfume-exclusivo-30",
+      "nome": "Perfume Árabe Exclusivo 30",
+      "id_marca": 1,
+      "preco": 585,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "frutada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-30.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia",
+        "academia",
+        "encontros"
+      ],
+      "estilo": [
+        "sedutor",
+        "sofisticado"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 9031,
+      "slug": "kenz-al-malik-al-wataniah",
+      "nome": "Kenz Al Malik Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "floral",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/kenz-al-malik-al-wataniah.webp",
+      "ocasiao": [
+        "eventos"
+      ],
+      "estilo": [
+        "jovem"
+      ],
+      "intensidade": "forte",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8032,
+      "slug": "perfume-exclusivo-32",
+      "nome": "Perfume Árabe Exclusivo 32",
+      "id_marca": 1,
+      "preco": 165,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "amadeirada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-32.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas",
+        "uso_noturno"
+      ],
+      "estilo": [
+        "luxuoso",
+        "executivo"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 9033,
+      "slug": "sultan-allail-al-wataniah",
+      "nome": "Sultan Allail Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "citrica",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/sultan-allail-al-wataniah.webp",
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia",
+        "academia"
+      ],
+      "estilo": [
+        "casual"
+      ],
+      "intensidade": "suave",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 9034,
+      "slug": "eqaab-al-wataniah",
+      "nome": "Eqaab Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "especiada",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/eqaab-al-wataniah.webp",
+      "ocasiao": [
+        "encontros"
+      ],
+      "estilo": [
+        "elegante",
+        "sedutor"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 65,
+      "slug": "al-wataniah-kenz-al-malik-100-ml",
+      "nome": "Al Wataniah Kenz Al Malik 100 ml",
+      "id_marca": 5,
+      "id_familia": 1,
+      "volume_ml": 100,
+      "preco": 290,
+      "preco_sob_consulta": false,
+      "status_estoque": "disponivel",
+      "seo_title": "Al Wataniah Kenz Al Malik 100 ml | Maison Núr",
+      "seo_description": "Descubra a sofisticação de Al Wataniah Kenz Al Malik 100 ml. Notas exclusivas na Maison Núr.",
+      "descricao_curta": "Uma assinatura olfativa de luxo e sofisticação.",
+      "descricao_longa": "Fragrância meticulosamente elaborada, perfeita para quem exige exclusividade e presença marcante.",
+      "piramide_olfativa": {
+        "topo": [
+          "Notas de topo a definir"
+        ],
+        "coracao": [
+          "Notas de coração a definir"
+        ],
+        "fundo": [
+          "Notas de fundo a definir"
+        ]
+      },
+      "imagem_url": "/assets/images/optimized/al-wataniah-kenz-al-malik-100-ml.webp",
+      "destaque": false,
+      "genero": "feminino",
+      "familia_olfativa": "oriental",
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "ocasiao": [
+        "eventos",
+        "festas"
+      ],
+      "estacao": [
+        "verao",
+        "outono"
+      ],
+      "estilo": [
+        "sofisticado"
+      ],
+      "similares_famosos": [],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 8036,
+      "slug": "perfume-exclusivo-36",
+      "nome": "Perfume Árabe Exclusivo 36",
+      "id_marca": 1,
+      "preco": 225,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "couro",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-36.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "trabalho",
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "jovem",
+        "luxuoso"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 9037,
+      "slug": "al-layl-al-wataniah",
+      "nome": "Al Layl Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "oud",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/al-layl-al-wataniah.webp",
+      "ocasiao": [
+        "academia"
+      ],
+      "estilo": [
+        "executivo"
+      ],
+      "intensidade": "suave",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8038,
+      "slug": "perfume-exclusivo-38",
+      "nome": "Perfume Árabe Exclusivo 38",
+      "id_marca": 1,
+      "preco": 255,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "doce",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-38.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros",
+        "eventos"
+      ],
+      "estilo": [
+        "casual",
+        "elegante"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 9039,
+      "slug": "ghala-al-wataniah",
+      "nome": "Ghala Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "baunilha",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/ghala-al-wataniah.webp",
+      "ocasiao": [
+        "festas",
+        "uso_noturno",
+        "trabalho"
+      ],
+      "estilo": [
+        "sedutor"
+      ],
+      "intensidade": "forte",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8040,
+      "slug": "perfume-exclusivo-40",
+      "nome": "Perfume Árabe Exclusivo 40",
+      "id_marca": 1,
+      "preco": 285,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "frutada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-40.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "sofisticado",
+        "jovem"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8041,
+      "slug": "perfume-exclusivo-41",
+      "nome": "Perfume Árabe Exclusivo 41",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "floral",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-41.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia",
+        "encontros"
+      ],
+      "estilo": [
+        "luxuoso"
+      ],
+      "intensidade": "suave",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8042,
+      "slug": "perfume-exclusivo-42",
+      "nome": "Perfume Árabe Exclusivo 42",
+      "id_marca": 1,
+      "preco": 315,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "amadeirada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-42.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "eventos",
+        "festas",
+        "uso_noturno"
+      ],
+      "estilo": [
+        "executivo",
+        "casual"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 9043,
+      "slug": "espada-azul-al-wataniah",
+      "nome": "Espada Azul Al Wataniah",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "citrica",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/espada-azul-al-wataniah.webp",
+      "ocasiao": [
+        "trabalho"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8044,
+      "slug": "perfume-exclusivo-44",
+      "nome": "Perfume Árabe Exclusivo 44",
+      "id_marca": 1,
+      "preco": 345,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "especiada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-44.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "dia_a_dia",
+        "academia"
+      ],
+      "estilo": [
+        "sedutor",
+        "sofisticado"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8045,
+      "slug": "perfume-exclusivo-45",
+      "nome": "Perfume Árabe Exclusivo 45",
+      "id_marca": 1,
+      "preco": 360,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-45.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros",
+        "eventos",
+        "festas"
+      ],
+      "estilo": [
+        "jovem"
+      ],
+      "intensidade": "suave",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8046,
+      "slug": "perfume-exclusivo-46",
+      "nome": "Perfume Árabe Exclusivo 46",
+      "id_marca": 1,
+      "preco": 375,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "couro",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-46.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno"
+      ],
+      "estilo": [
+        "luxuoso",
+        "executivo"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8048,
+      "slug": "perfume-exclusivo-48",
+      "nome": "Perfume Árabe Exclusivo 48",
+      "id_marca": 1,
+      "preco": 390,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "oud",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-48.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia"
+      ],
+      "estilo": [
+        "casual"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8049,
+      "slug": "perfume-exclusivo-49",
+      "nome": "Perfume Árabe Exclusivo 49",
+      "id_marca": 1,
+      "preco": 405,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "doce",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-49.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "academia",
+        "encontros",
+        "eventos"
+      ],
+      "estilo": [
+        "elegante",
+        "sedutor"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8050,
+      "slug": "perfume-exclusivo-50",
+      "nome": "Perfume Árabe Exclusivo 50",
+      "id_marca": 1,
+      "preco": 420,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "baunilha",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-50.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas"
+      ],
+      "estilo": [
+        "sofisticado"
+      ],
+      "intensidade": "suave",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8051,
+      "slug": "perfume-exclusivo-51",
+      "nome": "Perfume Árabe Exclusivo 51",
+      "id_marca": 1,
+      "preco": 435,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "frutada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-51.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "trabalho"
+      ],
+      "estilo": [
+        "jovem",
+        "luxuoso"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 9052,
+      "slug": "million-gold-paco-rabanne",
+      "nome": "Million Gold Paco Rabanne",
+      "id_marca": 1,
+      "preco": 350,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "floral",
+      "volume_ml": 100,
+      "destaque": true,
+      "imagem_url": "/assets/images/optimized/million-gold-paco-rabanne.webp",
+      "ocasiao": [
+        "dia_a_dia",
+        "academia",
+        "encontros"
+      ],
+      "estilo": [
+        "executivo"
+      ],
+      "intensidade": "forte",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8053,
+      "slug": "perfume-exclusivo-53",
+      "nome": "Perfume Árabe Exclusivo 53",
+      "id_marca": 1,
+      "preco": 465,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "amadeirada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-53.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "eventos"
+      ],
+      "estilo": [
+        "casual",
+        "elegante"
+      ],
+      "intensidade": "muito_marcante",
+      "fixacao": 3,
+      "projecao": 3
+    },
+    {
+      "id_perfume": 8054,
+      "slug": "perfume-exclusivo-54",
+      "nome": "Perfume Árabe Exclusivo 54",
+      "id_marca": 1,
+      "preco": 480,
+      "status_estoque": "em_estoque",
+      "genero": "feminino",
+      "familia_olfativa": "citrica",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-54.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "festas",
+        "uso_noturno"
+      ],
+      "estilo": [
+        "sedutor"
+      ],
+      "intensidade": "suave",
+      "fixacao": 4,
+      "projecao": 4
+    },
+    {
+      "id_perfume": 8055,
+      "slug": "perfume-exclusivo-55",
+      "nome": "Perfume Árabe Exclusivo 55",
+      "id_marca": 1,
+      "preco": 495,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "especiada",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-55.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "trabalho",
+        "dia_a_dia",
+        "academia"
+      ],
+      "estilo": [
+        "sofisticado",
+        "jovem"
+      ],
+      "intensidade": "moderada",
+      "fixacao": 5,
+      "projecao": 5
+    },
+    {
+      "id_perfume": 8056,
+      "slug": "perfume-exclusivo-56",
+      "nome": "Perfume Árabe Exclusivo 56",
+      "id_marca": 1,
+      "preco": 510,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-56.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "encontros"
+      ],
+      "estilo": [
+        "luxuoso"
+      ],
+      "intensidade": "forte",
+      "fixacao": 3,
+      "projecao": 3
+    }
+  ]
+}
