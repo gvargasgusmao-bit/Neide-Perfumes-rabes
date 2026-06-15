@@ -46,11 +46,10 @@ app.use((req, res) => {
   });
 });
 
-if (process.env.NODE_ENV !== 'production') {
-  app.listen(PORT, () => {
-    console.log(`[Neide Perfumes] Servidor rodando em http://localhost:${PORT}`);
-  });
-}
+// Iniciar o servidor (Necessário para o Render)
+app.listen(PORT, () => {
+  console.log(`[Neide Perfumes] Servidor rodando na porta ${PORT}`);
+});
 
 // Export the app for Vercel Serverless
 module.exports = app;

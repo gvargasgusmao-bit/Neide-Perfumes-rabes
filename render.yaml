@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: catalogo-perfumes-nodejs
+    env: node
+    rootDir: catalogo-perfumes-premium
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
