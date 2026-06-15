@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 require('dotenv').config();
 
-const routes = require('./src/routes/index');
+const ProductController = require('./src/controllers/ProductController');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -36,7 +36,11 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'src', 'views'));
 
 // Rotas
-app.use('/', routes);
+app.get('/', ProductController.getHome);
+app.get('/quiz', ProductController.getQuiz);
+app.get('/catalogo', ProductController.getCatalog);
+app.get('/perfume/:slug', ProductController.getProductBySlug);
+app.post('/api/recomendacoes', ProductController.postRecomendacoes);
 
 // 404 Fallback
 app.use((req, res) => {
@@ -46,10 +50,6 @@ app.use((req, res) => {
   });
 });
 
-// Iniciar o servidor (Necessário para o Render)
 app.listen(PORT, () => {
-  console.log(`[Neide Perfumes] Servidor rodando na porta ${PORT}`);
+  console.log(`[Neide Perfumes] Servidor rodando em http://localhost:${PORT}`);
 });
-
-// Export the app for Vercel Serverless
-module.exports = app;
