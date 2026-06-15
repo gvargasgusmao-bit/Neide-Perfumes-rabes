@@ -273,7 +273,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Framboesa"
+        ],
+        "coracao": [
+          "Rosa",
+          "Peônia"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8005,
@@ -296,7 +311,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Pera"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8006,
@@ -321,7 +351,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Pêssego",
+          "Pera",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Cedro"
+        ]
+      }
     },
     {
       "id_perfume": 8007,
@@ -343,7 +388,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8008,
@@ -367,7 +428,23 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8009,
@@ -391,7 +468,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8010,
@@ -414,7 +506,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Pimenta",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Patchouli",
+          "Cedro"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Âmbar",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8011,
@@ -437,7 +544,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8012,
@@ -462,7 +585,23 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Couro",
+          "Sândalo",
+          "Cedro"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Vetiver"
+        ]
+      }
     },
     {
       "id_perfume": 8013,
@@ -484,7 +623,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8014,
@@ -508,7 +662,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Framboesa"
+        ],
+        "coracao": [
+          "Rosa",
+          "Peônia"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 9015,
@@ -532,7 +701,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8016,
@@ -555,7 +740,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Pera"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8017,
@@ -578,7 +778,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Pêssego",
+          "Pera",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Cedro"
+        ]
+      }
     },
     {
       "id_perfume": 8018,
@@ -603,7 +818,23 @@
       ],
       "intensidade": "moderada",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8019,
@@ -625,7 +856,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8020,
@@ -649,7 +896,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8021,
@@ -673,7 +935,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Pimenta",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Patchouli",
+          "Cedro"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Âmbar",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8022,
@@ -696,7 +973,23 @@
       ],
       "intensidade": "moderada",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8023,
@@ -719,7 +1012,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Couro",
+          "Sândalo",
+          "Cedro"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Vetiver"
+        ]
+      }
     },
     {
       "id_perfume": 8024,
@@ -744,7 +1053,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 9025,
@@ -766,7 +1090,23 @@
       ],
       "intensidade": "suave",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 9026,
@@ -790,7 +1130,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8027,
@@ -814,7 +1169,22 @@
       ],
       "intensidade": "forte",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Framboesa"
+        ],
+        "coracao": [
+          "Rosa",
+          "Peônia"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8028,
@@ -837,7 +1207,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Pera"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 51,
@@ -908,7 +1293,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Pêssego",
+          "Pera",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Cedro"
+        ]
+      }
     },
     {
       "id_perfume": 9031,
@@ -930,7 +1330,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8032,
@@ -954,7 +1370,23 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 9033,
@@ -978,7 +1410,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 9034,
@@ -1001,7 +1448,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Pimenta",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Patchouli",
+          "Cedro"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Âmbar",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 65,
@@ -1072,7 +1534,23 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Couro",
+          "Sândalo",
+          "Cedro"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Vetiver"
+        ]
+      }
     },
     {
       "id_perfume": 9037,
@@ -1094,7 +1572,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8038,
@@ -1118,7 +1611,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Framboesa"
+        ],
+        "coracao": [
+          "Rosa",
+          "Peônia"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 9039,
@@ -1142,7 +1650,22 @@
       ],
       "intensidade": "forte",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Pera"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8040,
@@ -1165,7 +1688,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Pêssego",
+          "Pera",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Cedro"
+        ]
+      }
     },
     {
       "id_perfume": 8041,
@@ -1188,7 +1726,23 @@
       ],
       "intensidade": "suave",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8042,
@@ -1213,7 +1767,23 @@
       ],
       "intensidade": "moderada",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 9043,
@@ -1235,7 +1805,22 @@
       ],
       "intensidade": "forte",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8044,
@@ -1259,7 +1844,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Pimenta",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Patchouli",
+          "Cedro"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Âmbar",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8045,
@@ -1283,7 +1883,23 @@
       ],
       "intensidade": "suave",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8046,
@@ -1306,7 +1922,23 @@
       ],
       "intensidade": "moderada",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Couro",
+          "Sândalo",
+          "Cedro"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Vetiver"
+        ]
+      }
     },
     {
       "id_perfume": 8048,
@@ -1329,7 +1961,22 @@
       ],
       "intensidade": "forte",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     },
     {
       "id_perfume": 8049,
@@ -1354,7 +2001,22 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Framboesa"
+        ],
+        "coracao": [
+          "Rosa",
+          "Peônia"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8050,
@@ -1376,7 +2038,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Pera"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8051,
@@ -1400,7 +2077,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Pêssego",
+          "Pera",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Cedro"
+        ]
+      }
     },
     {
       "id_perfume": 9052,
@@ -1424,7 +2116,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Aldeídos"
+        ],
+        "coracao": [
+          "Rosa",
+          "Jasmim",
+          "Peônia"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Sândalo",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8053,
@@ -1447,7 +2155,23 @@
       ],
       "intensidade": "muito_marcante",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Cedro",
+          "Sândalo",
+          "Vetiver"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Baunilha",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8054,
@@ -1470,7 +2194,22 @@
       ],
       "intensidade": "suave",
       "fixacao": 4,
-      "projecao": 4
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Limão",
+          "Laranja"
+        ],
+        "coracao": [
+          "Lavanda",
+          "Cedro"
+        ],
+        "fundo": [
+          "Almíscar",
+          "Âmbar"
+        ]
+      }
     },
     {
       "id_perfume": 8055,
@@ -1495,7 +2234,22 @@
       ],
       "intensidade": "moderada",
       "fixacao": 5,
-      "projecao": 5
+      "projecao": 5,
+      "piramide_olfativa": {
+        "topo": [
+          "Pimenta",
+          "Cardamomo"
+        ],
+        "coracao": [
+          "Patchouli",
+          "Cedro"
+        ],
+        "fundo": [
+          "Baunilha",
+          "Âmbar",
+          "Almíscar"
+        ]
+      }
     },
     {
       "id_perfume": 8056,
@@ -1517,7 +2271,23 @@
       ],
       "intensidade": "forte",
       "fixacao": 3,
-      "projecao": 3
+      "projecao": 3,
+      "piramide_olfativa": {
+        "topo": [
+          "Saffron",
+          "Bergamota"
+        ],
+        "coracao": [
+          "Oud",
+          "Rosa",
+          "Jasmim"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar",
+          "Incenso"
+        ]
+      }
     }
   ]
 }

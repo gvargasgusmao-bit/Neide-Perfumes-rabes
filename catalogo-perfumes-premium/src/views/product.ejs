@@ -145,6 +145,7 @@
         <% } %>
 
         <!-- Pirâmide Olfativa -->
+        <% const piramide = perfume.piramide_olfativa || {}; %>
         <div class="piramide">
           <h2 class="piramide-titulo">Pirâmide Olfativa</h2>
           <div class="piramide-camadas">
@@ -155,12 +156,8 @@
                 <small>Primeiras impressões • evaporam em 15-30min</small>
               </div>
               <div class="piramide-camada-notas">
-                <% (perfume.piramide_olfativa.topo || []).forEach(nota => { %>
-                  <% if (nota && !nota.toLowerCase().includes('definir')) { %>
-                    <span class="piramide-nota"><%= nota %></span>
-                  <% } else if (nota && nota.toLowerCase().includes('definir')) { %>
-                    <span class="piramide-nota" style="opacity:0.4;">A definir</span>
-                  <% } %>
+                <% (piramide.topo || ['A definir']).forEach(nota => { %>
+                  <span class="piramide-nota" <%= nota.toLowerCase().includes('definir') ? 'style="opacity:0.4;"' : '' %>><%= nota %></span>
                 <% }) %>
               </div>
             </div>
@@ -171,12 +168,8 @@
                 <small>A alma do perfume • duram 2-4 horas</small>
               </div>
               <div class="piramide-camada-notas">
-                <% (perfume.piramide_olfativa.coracao || []).forEach(nota => { %>
-                  <% if (nota && !nota.toLowerCase().includes('definir')) { %>
-                    <span class="piramide-nota"><%= nota %></span>
-                  <% } else { %>
-                    <span class="piramide-nota" style="opacity:0.4;">A definir</span>
-                  <% } %>
+                <% (piramide.coracao || ['A definir']).forEach(nota => { %>
+                  <span class="piramide-nota" <%= nota.toLowerCase().includes('definir') ? 'style="opacity:0.4;"' : '' %>><%= nota %></span>
                 <% }) %>
               </div>
             </div>
@@ -187,12 +180,8 @@
                 <small>Fixação e profundidade • duram 6-24h</small>
               </div>
               <div class="piramide-camada-notas">
-                <% (perfume.piramide_olfativa.fundo || []).forEach(nota => { %>
-                  <% if (nota && !nota.toLowerCase().includes('definir')) { %>
-                    <span class="piramide-nota"><%= nota %></span>
-                  <% } else { %>
-                    <span class="piramide-nota" style="opacity:0.4;">A definir</span>
-                  <% } %>
+                <% (piramide.fundo || ['A definir']).forEach(nota => { %>
+                  <span class="piramide-nota" <%= nota.toLowerCase().includes('definir') ? 'style="opacity:0.4;"' : '' %>><%= nota %></span>
                 <% }) %>
               </div>
             </div>
