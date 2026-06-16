@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('partials/head') %>
+  <style>
+    .comparacao-header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: linear-gradient(to bottom, var(--preto-absoluto), var(--preto-fundo));
+      border-bottom: 1px solid var(--branco-15);
+    }
+    .comparacao-title {
+      font-size: 2.5rem;
+      color: var(--dourado);
+      margin-bottom: 1rem;
+    }
+    .comparacao-desc {
+      color: var(--branco-80);
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .comparacao-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 4rem 5%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .comparacao-card {
+      background: var(--branco-5);
+      border: 1px solid var(--dourado-escuro);
+      border-radius: var(--raio-lg);
+      padding: 2rem;
+      text-align: center;
+      transition: transform var(--transicao);
+    }
+    .comparacao-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+    }
+    .comparacao-img {
+      width: 200px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: var(--raio-md);
+      margin-bottom: 1.5rem;
+    }
+    .comparacao-nome {
+      font-size: 1.5rem;
+      color: var(--branco);
+      margin-bottom: 0.5rem;
+    }
+    .comparacao-vantagens {
+      text-align: left;
+      margin: 1.5rem 0;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--branco-15);
+    }
+    .vantagem-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      color: var(--branco-80);
+    }
+    .vantagem-icon {
+      color: var(--dourado);
+    }
+  </style>
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main>
+    <header class="comparacao-header">
+      <h1 class="comparacao-title">Gosta do <%= famoso.toUpperCase() %>?</h1>
+      <p class="comparacao-desc">
+        Se você é apaixonado pela fragrância do <strong><%= famoso.toUpperCase() %></strong>, mas procura uma alternativa com <strong>maior fixação, projeção exclusiva e melhor custo-benefício</strong>, a perfumaria árabe tem a solução perfeita para você. Conheça nossas recomendações.
+      </p>
+    </header>
+
+    <section class="comparacao-grid">
+      <% recomendados.forEach((perfume, index) => { %>
+        <article class="comparacao-card">
+          <% if (index === 0) { %>
+            <div style="background: var(--dourado); color: var(--preto); font-weight: bold; padding: 0.5rem; border-radius: 20px; margin-bottom: 1rem; display: inline-block;">🏆 Melhor Alternativa</div>
+          <% } %>
+          <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" class="comparacao-img" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/d4af37?text=Imagem+Indisponível';">
+          <h2 class="comparacao-nome"><%= perfume.nome %></h2>
+          <div style="color: var(--dourado); font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">
+            R$ <%= perfume.preco.toLocaleString('pt-BR', {minimumFractionDigits: 2}) %>
+          </div>
+          
+          <div class="comparacao-vantagens">
+            <div class="vantagem-item">
+              <span class="vantagem-icon">✨</span>
+              <span><strong>Notas idênticas</strong> ao <%= famoso %></span>
+            </div>
+            <div class="vantagem-item">
+              <span class="vantagem-icon">⏳</span>
+              <span>Fixação de até 12 horas</span>
+            </div>
+            <div class="vantagem-item">
+              <span class="vantagem-icon">💰</span>
+              <span>Até 3x mais barato que o designer</span>
+            </div>
+          </div>
+
+          <a href="/perfume/<%= perfume.slug %>" class="btn btn-primario" style="width: 100%;">Ver Detalhes</a>
+        </article>
+      <% }) %>
+    </section>
+
+    <section style="text-align: center; padding: 4rem 1rem; background: var(--preto-fundo);">
+      <h2 style="color: var(--branco); margin-bottom: 1rem;">Ainda com dúvidas?</h2>
+      <p style="color: var(--branco-70); margin-bottom: 2rem;">Fale com um de nossos especialistas e receba uma consultoria gratuita.</p>
+      <a href="https://wa.me/<%= config.whatsapp_contato %>?text=<%= encodeURIComponent(`Olá! Gostaria de saber qual perfume árabe lembra o ${famoso}. Podem me ajudar?`) %>" class="btn btn-whatsapp" target="_blank">
+        Falar no WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

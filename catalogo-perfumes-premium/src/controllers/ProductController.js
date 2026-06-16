@@ -244,6 +244,32 @@ const ProductController = {
     if (terceira) recomendacoes.push(terceira);
 
     res.json({ recomendacoes, total: comScore.length });
+  },
+
+  getSEOComparison: (req, res) => {
+    const { famosoSlug } = req.params;
+    // Ex: "sauvage", "baccarat-rouge"
+    const famosoDecoded = famosoSlug.replace(/-/g, ' ');
+    
+    // Find perfumes that mention this famous perfume in similares_famosos
+    const recomendados = db.perfumes.filter(p => 
+      p.similares_famosos && p.similares_famosos.some(s => s.toLowerCase().includes(famosoDecoded.toLowerCase().split(' ')[0]))
+    );
+
+    if (recomendados.length === 0) {
+      // Fallback: Just return a generic catalog search or a top perfume
+      return res.redirect('/catalogo');
+    }
+
+    res.render('comparacao', {
+      meta: {
+        title: `Perfumes parecidos com ${famosoDecoded.toUpperCase()} | Neide Perfumes`,
+        description: `Procurando perfumes árabes que lembram o ${famosoDecoded.toUpperCase()}? Descubra as melhores opções com alta fixação e projeção na Neide Perfumes Importados.`
+      },
+      famoso: famosoDecoded,
+      recomendados: recomendados.slice(0, 3), // Top 3
+      config: db.configuracoes
+    });
   }
 };
 

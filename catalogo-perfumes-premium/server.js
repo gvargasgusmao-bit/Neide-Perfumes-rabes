@@ -40,6 +40,7 @@ app.get('/', ProductController.getHome);
 app.get('/quiz', ProductController.getQuiz);
 app.get('/catalogo', ProductController.getCatalog);
 app.get('/perfume/:slug', ProductController.getProductBySlug);
+app.get('/perfumes-parecidos-com-:famosoSlug', ProductController.getSEOComparison);
 app.post('/api/recomendacoes', ProductController.postRecomendacoes);
 
 // 404 Fallback
