@@ -39,6 +39,11 @@
             <% } else { %>
               <span class="badge badge-estoque-ok">✓ Disponível</span>
             <% } %>
+            <% if (perfume.badges && perfume.badges.length > 0) { %>
+              <% perfume.badges.slice(0, 2).forEach(b => { %>
+                <span class="badge badge-conversao" style="margin-top: 4px;"><%= b %></span>
+              <% }) %>
+            <% } %>
           </div>
 
           <!-- Imagem principal -->
@@ -132,15 +137,9 @@
 
         <!-- Similares Famosos -->
         <% if (perfume.similares_famosos && perfume.similares_famosos.length > 0) { %>
-        <div class="produto-similares-famosos">
-          <div class="produto-similares-titulo">
-            ✨ Este perfume lembra
-          </div>
-          <div class="produto-similares-lista">
-            <% perfume.similares_famosos.forEach(s => { %>
-              <span class="produto-similar-tag"><%= s %></span>
-            <% }) %>
-          </div>
+        <div class="produto-similares-destaque" style="background: rgba(212, 175, 55, 0.1); border: 1px solid var(--dourado); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; text-align: center;">
+          <div style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--dourado);">✨ <strong>Gosta do <%= perfume.similares_famosos[0].split(' ').slice(0,3).join(' ') %>?</strong></div>
+          <p style="color: var(--branco-80); margin-bottom: 0; line-height: 1.5;">Se você gosta de fragrâncias como <strong style="color:var(--branco)"><%= perfume.similares_famosos.join(' ou ') %></strong>, você provavelmente vai se apaixonar por este perfume árabe.</p>
         </div>
         <% } %>
 

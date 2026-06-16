@@ -156,7 +156,10 @@
         "Chanel N°5",
         "Creed Aventus for Her"
       ],
-      "preco_faixa": "ate_500"
+      "preco_faixa": "ate_500",
+      "badges": [
+        "Lembra o Chanel N°5"
+      ]
     },
     {
       "id_perfume": 424,
@@ -203,7 +206,10 @@
         "sofisticado"
       ],
       "similares_famosos": [],
-      "preco_faixa": "ate_350"
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 34,
@@ -250,14 +256,17 @@
         "jovem"
       ],
       "similares_famosos": [],
-      "preco_faixa": "acima_500"
+      "preco_faixa": "acima_500",
+      "badges": [
+        "Fixação Extrema"
+      ]
     },
     {
       "id_perfume": 8004,
       "slug": "perfume-exclusivo-4",
       "nome": "Perfume Árabe Exclusivo 4",
       "id_marca": 1,
-      "preco": 195,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "doce",
@@ -288,14 +297,18 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8005,
       "slug": "perfume-exclusivo-5",
       "nome": "Perfume Árabe Exclusivo 5",
       "id_marca": 1,
-      "preco": 210,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "baunilha",
@@ -326,14 +339,18 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8006,
       "slug": "perfume-exclusivo-6",
       "nome": "Perfume Árabe Exclusivo 6",
       "id_marca": 1,
-      "preco": 225,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "frutada",
@@ -366,14 +383,19 @@
           "Almíscar",
           "Cedro"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8007,
       "slug": "perfume-exclusivo-7",
       "nome": "Perfume Árabe Exclusivo 7",
       "id_marca": 1,
-      "preco": 240,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "floral",
@@ -404,14 +426,18 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8008,
       "slug": "perfume-exclusivo-8",
       "nome": "Perfume Árabe Exclusivo 8",
       "id_marca": 1,
-      "preco": 255,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "amadeirada",
@@ -444,14 +470,18 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8009,
       "slug": "perfume-exclusivo-9",
       "nome": "Perfume Árabe Exclusivo 9",
       "id_marca": 1,
-      "preco": 270,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "citrica",
@@ -483,14 +513,19 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8010,
       "slug": "perfume-exclusivo-10",
       "nome": "Perfume Árabe Exclusivo 10",
       "id_marca": 1,
-      "preco": 285,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "especiada",
@@ -521,14 +556,18 @@
           "Âmbar",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8011,
       "slug": "perfume-exclusivo-11",
       "nome": "Perfume Árabe Exclusivo 11",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "oriental",
@@ -560,14 +599,18 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8012,
       "slug": "perfume-exclusivo-12",
       "nome": "Perfume Árabe Exclusivo 12",
       "id_marca": 1,
-      "preco": 315,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "couro",
@@ -601,14 +644,19 @@
           "Almíscar",
           "Vetiver"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8013,
       "slug": "perfume-exclusivo-13",
       "nome": "Perfume Árabe Exclusivo 13",
       "id_marca": 1,
-      "preco": 330,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "oud",
@@ -638,14 +686,18 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8014,
       "slug": "perfume-exclusivo-14",
       "nome": "Perfume Árabe Exclusivo 14",
       "id_marca": 1,
-      "preco": 345,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "doce",
@@ -677,14 +729,18 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9015,
       "slug": "sabah-al-ward-al-wataniah",
       "nome": "Sabah Al Ward Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "floral",
@@ -717,14 +773,20 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8016,
       "slug": "perfume-exclusivo-16",
       "nome": "Perfume Árabe Exclusivo 16",
       "id_marca": 1,
-      "preco": 375,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "baunilha",
@@ -755,14 +817,18 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8017,
       "slug": "perfume-exclusivo-17",
       "nome": "Perfume Árabe Exclusivo 17",
       "id_marca": 1,
-      "preco": 390,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "frutada",
@@ -793,14 +859,18 @@
           "Almíscar",
           "Cedro"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8018,
       "slug": "perfume-exclusivo-18",
       "nome": "Perfume Árabe Exclusivo 18",
       "id_marca": 1,
-      "preco": 405,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "floral",
@@ -834,14 +904,19 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8019,
       "slug": "perfume-exclusivo-19",
       "nome": "Perfume Árabe Exclusivo 19",
       "id_marca": 1,
-      "preco": 420,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "amadeirada",
@@ -872,14 +947,18 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8020,
       "slug": "perfume-exclusivo-20",
       "nome": "Perfume Árabe Exclusivo 20",
       "id_marca": 1,
-      "preco": 435,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "citrica",
@@ -911,14 +990,18 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8021,
       "slug": "perfume-exclusivo-21",
       "nome": "Perfume Árabe Exclusivo 21",
       "id_marca": 1,
-      "preco": 450,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "especiada",
@@ -950,14 +1033,19 @@
           "Âmbar",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8022,
       "slug": "perfume-exclusivo-22",
       "nome": "Perfume Árabe Exclusivo 22",
       "id_marca": 1,
-      "preco": 465,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "oriental",
@@ -989,14 +1077,18 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8023,
       "slug": "perfume-exclusivo-23",
       "nome": "Perfume Árabe Exclusivo 23",
       "id_marca": 1,
-      "preco": 480,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "couro",
@@ -1028,14 +1120,18 @@
           "Almíscar",
           "Vetiver"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8024,
       "slug": "perfume-exclusivo-24",
       "nome": "Perfume Árabe Exclusivo 24",
       "id_marca": 1,
-      "preco": 495,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oud",
@@ -1068,14 +1164,19 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9025,
       "slug": "bareeq-al-dhahab-al-wataniah",
       "nome": "Bareeq Al Dhahab Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "amadeirada",
@@ -1106,14 +1207,19 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9026,
       "slug": "club-de-nuit-intense-man-armaf",
       "nome": "Club De Nuit Intense Man Armaf",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 450,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "citrica",
@@ -1145,14 +1251,18 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_500",
+      "badges": [
+        "Mais Vendido"
+      ]
     },
     {
       "id_perfume": 8027,
       "slug": "perfume-exclusivo-27",
       "nome": "Perfume Árabe Exclusivo 27",
       "id_marca": 1,
-      "preco": 540,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "doce",
@@ -1184,14 +1294,19 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8028,
       "slug": "perfume-exclusivo-28",
       "nome": "Perfume Árabe Exclusivo 28",
       "id_marca": 1,
-      "preco": 555,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "baunilha",
@@ -1222,7 +1337,11 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 51,
@@ -1268,14 +1387,17 @@
         "elegante"
       ],
       "similares_famosos": [],
-      "preco_faixa": "ate_350"
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8030,
       "slug": "perfume-exclusivo-30",
       "nome": "Perfume Árabe Exclusivo 30",
       "id_marca": 1,
-      "preco": 585,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "frutada",
@@ -1308,14 +1430,19 @@
           "Almíscar",
           "Cedro"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9031,
       "slug": "kenz-al-malik-al-wataniah",
       "nome": "Kenz Al Malik Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 290,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "floral",
@@ -1346,14 +1473,19 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8032,
       "slug": "perfume-exclusivo-32",
       "nome": "Perfume Árabe Exclusivo 32",
       "id_marca": 1,
-      "preco": 165,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "amadeirada",
@@ -1386,14 +1518,18 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9033,
       "slug": "sultan-allail-al-wataniah",
       "nome": "Sultan Allail Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 240,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "citrica",
@@ -1425,14 +1561,20 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Mais Vendido",
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9034,
       "slug": "eqaab-al-wataniah",
       "nome": "Eqaab Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "especiada",
@@ -1463,7 +1605,12 @@
           "Âmbar",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 65,
@@ -1509,14 +1656,17 @@
         "sofisticado"
       ],
       "similares_famosos": [],
-      "preco_faixa": "ate_350"
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8036,
       "slug": "perfume-exclusivo-36",
       "nome": "Perfume Árabe Exclusivo 36",
       "id_marca": 1,
-      "preco": 225,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "couro",
@@ -1550,16 +1700,21 @@
           "Almíscar",
           "Vetiver"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9037,
       "slug": "al-layl-al-wataniah",
       "nome": "Al Layl Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 290,
       "status_estoque": "em_estoque",
-      "genero": "masculino",
+      "genero": "unissex",
       "familia_olfativa": "oud",
       "volume_ml": 100,
       "destaque": true,
@@ -1587,14 +1742,19 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8038,
       "slug": "perfume-exclusivo-38",
       "nome": "Perfume Árabe Exclusivo 38",
       "id_marca": 1,
-      "preco": 255,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "doce",
@@ -1626,16 +1786,20 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9039,
       "slug": "ghala-al-wataniah",
       "nome": "Ghala Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
-      "genero": "unissex",
+      "genero": "feminino",
       "familia_olfativa": "baunilha",
       "volume_ml": 100,
       "destaque": true,
@@ -1665,14 +1829,20 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8040,
       "slug": "perfume-exclusivo-40",
       "nome": "Perfume Árabe Exclusivo 40",
       "id_marca": 1,
-      "preco": 285,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "frutada",
@@ -1703,14 +1873,18 @@
           "Almíscar",
           "Cedro"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8041,
       "slug": "perfume-exclusivo-41",
       "nome": "Perfume Árabe Exclusivo 41",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "floral",
@@ -1742,14 +1916,18 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8042,
       "slug": "perfume-exclusivo-42",
       "nome": "Perfume Árabe Exclusivo 42",
       "id_marca": 1,
-      "preco": 315,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "amadeirada",
@@ -1783,14 +1961,19 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9043,
       "slug": "espada-azul-al-wataniah",
       "nome": "Espada Azul Al Wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "citrica",
@@ -1820,14 +2003,19 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_350",
+      "badges": [
+        "Mais Vendido",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8044,
       "slug": "perfume-exclusivo-44",
       "nome": "Perfume Árabe Exclusivo 44",
       "id_marca": 1,
-      "preco": 345,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "especiada",
@@ -1859,14 +2047,18 @@
           "Âmbar",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8045,
       "slug": "perfume-exclusivo-45",
       "nome": "Perfume Árabe Exclusivo 45",
       "id_marca": 1,
-      "preco": 360,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
@@ -1899,14 +2091,19 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8046,
       "slug": "perfume-exclusivo-46",
       "nome": "Perfume Árabe Exclusivo 46",
       "id_marca": 1,
-      "preco": 375,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "couro",
@@ -1938,14 +2135,18 @@
           "Almíscar",
           "Vetiver"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8048,
       "slug": "perfume-exclusivo-48",
       "nome": "Perfume Árabe Exclusivo 48",
       "id_marca": 1,
-      "preco": 390,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "oud",
@@ -1976,14 +2177,18 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8049,
       "slug": "perfume-exclusivo-49",
       "nome": "Perfume Árabe Exclusivo 49",
       "id_marca": 1,
-      "preco": 405,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "doce",
@@ -2016,14 +2221,19 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8050,
       "slug": "perfume-exclusivo-50",
       "nome": "Perfume Árabe Exclusivo 50",
       "id_marca": 1,
-      "preco": 420,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "baunilha",
@@ -2053,14 +2263,18 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8051,
       "slug": "perfume-exclusivo-51",
       "nome": "Perfume Árabe Exclusivo 51",
       "id_marca": 1,
-      "preco": 435,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "frutada",
@@ -2092,14 +2306,18 @@
           "Almíscar",
           "Cedro"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 9052,
       "slug": "million-gold-paco-rabanne",
       "nome": "Million Gold Paco Rabanne",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 600,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "floral",
@@ -2132,14 +2350,19 @@
           "Sândalo",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "acima_500",
+      "badges": [
+        "Mais Vendido",
+        "Fixação Extrema"
+      ]
     },
     {
       "id_perfume": 8053,
       "slug": "perfume-exclusivo-53",
       "nome": "Perfume Árabe Exclusivo 53",
       "id_marca": 1,
-      "preco": 465,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "amadeirada",
@@ -2171,14 +2394,18 @@
           "Baunilha",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8054,
       "slug": "perfume-exclusivo-54",
       "nome": "Perfume Árabe Exclusivo 54",
       "id_marca": 1,
-      "preco": 480,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "feminino",
       "familia_olfativa": "citrica",
@@ -2209,14 +2436,18 @@
           "Almíscar",
           "Âmbar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8055,
       "slug": "perfume-exclusivo-55",
       "nome": "Perfume Árabe Exclusivo 55",
       "id_marca": 1,
-      "preco": 495,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "especiada",
@@ -2249,14 +2480,19 @@
           "Âmbar",
           "Almíscar"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Fixação Extrema",
+        "Custo-Benefício"
+      ]
     },
     {
       "id_perfume": 8056,
       "slug": "perfume-exclusivo-56",
       "nome": "Perfume Árabe Exclusivo 56",
       "id_marca": 1,
-      "preco": 510,
+      "preco": 150,
       "status_estoque": "em_estoque",
       "genero": "masculino",
       "familia_olfativa": "oriental",
@@ -2287,7 +2523,11 @@
           "Almíscar",
           "Incenso"
         ]
-      }
+      },
+      "preco_faixa": "ate_250",
+      "badges": [
+        "Custo-Benefício"
+      ]
     }
   ]
 }

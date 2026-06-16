@@ -970,6 +970,13 @@ input, textarea, select {
   border: 1px solid rgba(230, 126, 34, 0.3);
 }
 
+.badge-conversao {
+  background: var(--preto);
+  color: var(--dourado);
+  border: 1px solid var(--dourado-escuro);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
 .perfume-card-overlay {
   position: absolute;
   bottom: 0;

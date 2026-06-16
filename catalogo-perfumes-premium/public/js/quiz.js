@@ -139,10 +139,24 @@ function exibirResultados(recomendacoes) {
   const container = document.getElementById('resultado-cards');
   container.innerHTML = '';
 
+  // 1. Destaque de Consultoria (Perfil Olfativo)
+  let perfilHtml = `
+    <div class="perfil-olfativo-resumo" style="background: rgba(212, 175, 55, 0.05); border: 1px solid var(--dourado-escuro); border-radius: 12px; padding: 2rem; margin-bottom: 3rem; text-align: center;">
+      <h2 style="color: var(--dourado); margin-bottom: 1rem; font-size: 1.5rem;">✨ Seu Perfil Olfativo</h2>
+      <p style="color: var(--branco-80); font-size: 1.1rem; line-height: 1.6;">
+        Com base nas suas respostas, você busca uma fragrância <strong>${respostas.intensidade || 'marcante'}</strong> e ideal para <strong>${(respostas.ocasiao && respostas.ocasiao.length > 0) ? respostas.ocasiao.join(', ').replace(/_/g, ' ') : 'o dia a dia'}</strong>.
+      </p>
+      <p style="color: var(--branco-80); font-size: 1.1rem; line-height: 1.6; margin-top: 0.5rem;">
+        Seu gosto combina perfeitamente com <strong>perfumes ${(respostas.familia && respostas.familia.length > 0) ? respostas.familia.join(' e ') : 'orientais'}</strong>. Por isso, selecionamos as seguintes opções exclusivas da perfumaria árabe:
+      </p>
+    </div>
+  `;
+  container.innerHTML = perfilHtml;
+
   const ranks = [
     { label: '🏆 Melhor Combinação', classe: 'primeira' },
     { label: '🥈 Segunda Opção', classe: 'segunda' },
-    { label: '🥉 Alternativa Premium', classe: 'terceira' }
+    { label: '💎 Alternativa Premium', classe: 'terceira' }
   ];
 
   recomendacoes.slice(0, 3).forEach((p, idx) => {
@@ -162,7 +176,7 @@ function exibirResultados(recomendacoes) {
           </div>
         </div>` : '';
 
-    const waMensagem = encodeURIComponent(`Olá, Neide Perfumes! Fiz o quiz e quero saber mais sobre o perfume "${p.nome}". Vi que é recomendado para mim!`);
+    const waMensagem = encodeURIComponent(`Olá! Fiz o quiz da Neide Perfumes Importados e recebi a recomendação:\n\nPerfume: ${p.nome}\n\nGostaria de mais informações.`);
     const waLink = `https://wa.me/<%= config.whatsapp_contato %>?text=${waMensagem}`;
 
     container.innerHTML += `

@@ -220,6 +220,11 @@
                     <span class="badge badge-genero-u">Unissex</span>
                   <% } %>
                   <% if (perfume.destaque) { %><span class="badge badge-destaque">⭐ Destaque</span><% } %>
+                  <% if (perfume.badges && perfume.badges.length > 0) { %>
+                    <% perfume.badges.slice(0, 1).forEach(b => { %>
+                      <span class="badge badge-conversao"><%= b %></span>
+                    <% }) %>
+                  <% } %>
                 </div>
               </a>
 
