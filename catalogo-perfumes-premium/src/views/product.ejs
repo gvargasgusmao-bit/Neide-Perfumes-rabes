@@ -48,7 +48,7 @@
 
           <!-- Imagem principal -->
           <% if (perfume.imagem_url) { %>
-            <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" style="width:100%; height:100%; object-fit:cover; display:block; border-radius: 20px;">
+            <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" style="width:100%; height:100%; object-fit:cover; display:block; border-radius: 20px;" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/d4af37?text=Imagem+Indisponível';">
           <% } else { %>
             <div class="produto-imagem-placeholder">
               <div class="produto-imagem-placeholder-icone" aria-hidden="true">🌹</div>

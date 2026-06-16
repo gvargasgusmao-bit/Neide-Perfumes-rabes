@@ -204,7 +204,7 @@
             >
               <a href="/perfume/<%= perfume.slug %>" class="perfume-card-imagem" aria-label="Ver detalhes de <%= perfume.nome %>">
                 <% if (perfume.imagem_url) { %>
-                  <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" class="perfume-card-imagem-img" loading="lazy">
+                  <img src="<%= perfume.imagem_url %>" alt="<%= perfume.nome %>" class="perfume-card-imagem-img" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/400x500/1a1a1a/d4af37?text=Imagem+Indisponível';">
                 <% } else { %>
                   <div class="perfume-card-placeholder shimmer">
                     <div class="perfume-placeholder-icone" aria-hidden="true">🌹</div>
