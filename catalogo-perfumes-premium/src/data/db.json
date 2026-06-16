@@ -164,7 +164,7 @@
     {
       "id_perfume": 424,
       "slug": "body-cream-asad-black",
-      "nome": "Body Cream Asad Black",
+      "nome": "Body Creme Asad Black",
       "id_marca": 8,
       "id_familia": 1,
       "volume_ml": 100,
@@ -214,7 +214,7 @@
     {
       "id_perfume": 34,
       "slug": "lattafa-musamam-white-100-ml",
-      "nome": "Lattafa – Musamam White 100 ml",
+      "nome": "Lattafa - Musamam White 100ml",
       "id_marca": 3,
       "id_familia": 1,
       "volume_ml": 100,
@@ -264,7 +264,7 @@
     {
       "id_perfume": 8004,
       "slug": "perfume-exclusivo-4",
-      "nome": "Perfume Árabe Exclusivo 4",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -306,7 +306,7 @@
     {
       "id_perfume": 8005,
       "slug": "perfume-exclusivo-5",
-      "nome": "Perfume Árabe Exclusivo 5",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -348,7 +348,7 @@
     {
       "id_perfume": 8006,
       "slug": "perfume-exclusivo-6",
-      "nome": "Perfume Árabe Exclusivo 6",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -393,7 +393,7 @@
     {
       "id_perfume": 8007,
       "slug": "perfume-exclusivo-7",
-      "nome": "Perfume Árabe Exclusivo 7",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -435,7 +435,7 @@
     {
       "id_perfume": 8008,
       "slug": "perfume-exclusivo-8",
-      "nome": "Perfume Árabe Exclusivo 8",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -479,7 +479,7 @@
     {
       "id_perfume": 8009,
       "slug": "perfume-exclusivo-9",
-      "nome": "Perfume Árabe Exclusivo 9",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -523,7 +523,7 @@
     {
       "id_perfume": 8010,
       "slug": "perfume-exclusivo-10",
-      "nome": "Perfume Árabe Exclusivo 10",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -565,7 +565,7 @@
     {
       "id_perfume": 8011,
       "slug": "perfume-exclusivo-11",
-      "nome": "Perfume Árabe Exclusivo 11",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -608,7 +608,7 @@
     {
       "id_perfume": 8012,
       "slug": "perfume-exclusivo-12",
-      "nome": "Perfume Árabe Exclusivo 12",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -654,7 +654,7 @@
     {
       "id_perfume": 8013,
       "slug": "perfume-exclusivo-13",
-      "nome": "Perfume Árabe Exclusivo 13",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -695,7 +695,7 @@
     {
       "id_perfume": 8014,
       "slug": "perfume-exclusivo-14",
-      "nome": "Perfume Árabe Exclusivo 14",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -738,7 +738,7 @@
     {
       "id_perfume": 9015,
       "slug": "sabah-al-ward-al-wataniah",
-      "nome": "Sabah Al Ward Al Wataniah",
+      "nome": "Al Ward - Sabah 100ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
@@ -784,7 +784,7 @@
     {
       "id_perfume": 8016,
       "slug": "perfume-exclusivo-16",
-      "nome": "Perfume Árabe Exclusivo 16",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -826,7 +826,7 @@
     {
       "id_perfume": 8017,
       "slug": "perfume-exclusivo-17",
-      "nome": "Perfume Árabe Exclusivo 17",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -868,7 +868,7 @@
     {
       "id_perfume": 8018,
       "slug": "perfume-exclusivo-18",
-      "nome": "Perfume Árabe Exclusivo 18",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -914,7 +914,7 @@
     {
       "id_perfume": 8019,
       "slug": "perfume-exclusivo-19",
-      "nome": "Perfume Árabe Exclusivo 19",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -956,7 +956,7 @@
     {
       "id_perfume": 8020,
       "slug": "perfume-exclusivo-20",
-      "nome": "Perfume Árabe Exclusivo 20",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -999,7 +999,7 @@
     {
       "id_perfume": 8021,
       "slug": "perfume-exclusivo-21",
-      "nome": "Perfume Árabe Exclusivo 21",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1043,7 +1043,7 @@
     {
       "id_perfume": 8022,
       "slug": "perfume-exclusivo-22",
-      "nome": "Perfume Árabe Exclusivo 22",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1086,7 +1086,7 @@
     {
       "id_perfume": 8023,
       "slug": "perfume-exclusivo-23",
-      "nome": "Perfume Árabe Exclusivo 23",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1129,7 +1129,7 @@
     {
       "id_perfume": 8024,
       "slug": "perfume-exclusivo-24",
-      "nome": "Perfume Árabe Exclusivo 24",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1174,7 +1174,7 @@
     {
       "id_perfume": 9025,
       "slug": "bareeq-al-dhahab-al-wataniah",
-      "nome": "Bareeq Al Dhahab Al Wataniah",
+      "nome": "Al Wataniah - Ameerati 100ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
@@ -1217,7 +1217,7 @@
     {
       "id_perfume": 9026,
       "slug": "club-de-nuit-intense-man-armaf",
-      "nome": "Club De Nuit Intense Man Armaf",
+      "nome": "Perfume Armaf Club de Nuit Intense Man 105ml",
       "id_marca": 1,
       "preco": 450,
       "status_estoque": "em_estoque",
@@ -1260,7 +1260,7 @@
     {
       "id_perfume": 8027,
       "slug": "perfume-exclusivo-27",
-      "nome": "Perfume Árabe Exclusivo 27",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1304,7 +1304,7 @@
     {
       "id_perfume": 8028,
       "slug": "perfume-exclusivo-28",
-      "nome": "Perfume Árabe Exclusivo 28",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1346,7 +1346,7 @@
     {
       "id_perfume": 51,
       "slug": "al-wataniah-boraq-75-ml",
-      "nome": "Al Wataniah – Boraq 75 ml",
+      "nome": "Al Wataniah - Boraq 75ml",
       "id_marca": 5,
       "id_familia": 1,
       "volume_ml": 100,
@@ -1395,7 +1395,7 @@
     {
       "id_perfume": 8030,
       "slug": "perfume-exclusivo-30",
-      "nome": "Perfume Árabe Exclusivo 30",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1440,7 +1440,7 @@
     {
       "id_perfume": 9031,
       "slug": "kenz-al-malik-al-wataniah",
-      "nome": "Kenz Al Malik Al Wataniah",
+      "nome": "Al Wataniah Kenz Al Malik 100ml",
       "id_marca": 1,
       "preco": 290,
       "status_estoque": "em_estoque",
@@ -1483,7 +1483,7 @@
     {
       "id_perfume": 8032,
       "slug": "perfume-exclusivo-32",
-      "nome": "Perfume Árabe Exclusivo 32",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1527,7 +1527,7 @@
     {
       "id_perfume": 9033,
       "slug": "sultan-allail-al-wataniah",
-      "nome": "Sultan Allail Al Wataniah",
+      "nome": "Al Wataniah Sultan Al Lail Original 100ml",
       "id_marca": 1,
       "preco": 240,
       "status_estoque": "em_estoque",
@@ -1572,7 +1572,7 @@
     {
       "id_perfume": 9034,
       "slug": "eqaab-al-wataniah",
-      "nome": "Eqaab Al Wataniah",
+      "nome": "Al Wataniah - Ameerati 100ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
@@ -1615,7 +1615,7 @@
     {
       "id_perfume": 65,
       "slug": "al-wataniah-kenz-al-malik-100-ml",
-      "nome": "Al Wataniah Kenz Al Malik 100 ml",
+      "nome": "Al Wataniah Kenz Al Malik 100ml",
       "id_marca": 5,
       "id_familia": 1,
       "volume_ml": 100,
@@ -1664,7 +1664,7 @@
     {
       "id_perfume": 8036,
       "slug": "perfume-exclusivo-36",
-      "nome": "Perfume Árabe Exclusivo 36",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1710,7 +1710,7 @@
     {
       "id_perfume": 9037,
       "slug": "al-layl-al-wataniah",
-      "nome": "Al Layl Al Wataniah",
+      "nome": "Al Wataniah Al Layl EDP Unissex 100ml",
       "id_marca": 1,
       "preco": 290,
       "status_estoque": "em_estoque",
@@ -1752,7 +1752,7 @@
     {
       "id_perfume": 8038,
       "slug": "perfume-exclusivo-38",
-      "nome": "Perfume Árabe Exclusivo 38",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1795,7 +1795,7 @@
     {
       "id_perfume": 9039,
       "slug": "ghala-al-wataniah",
-      "nome": "Ghala Al Wataniah",
+      "nome": "Al Wataniah Ghala Eau de Parfum 100ml Feminino",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
@@ -1840,7 +1840,7 @@
     {
       "id_perfume": 8040,
       "slug": "perfume-exclusivo-40",
-      "nome": "Perfume Árabe Exclusivo 40",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1882,7 +1882,7 @@
     {
       "id_perfume": 8041,
       "slug": "perfume-exclusivo-41",
-      "nome": "Perfume Árabe Exclusivo 41",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1925,7 +1925,7 @@
     {
       "id_perfume": 8042,
       "slug": "perfume-exclusivo-42",
-      "nome": "Perfume Árabe Exclusivo 42",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -1971,7 +1971,7 @@
     {
       "id_perfume": 9043,
       "slug": "espada-azul-al-wataniah",
-      "nome": "Espada Azul Al Wataniah",
+      "nome": "Al Wataniah - Ameerati 100ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
@@ -2013,7 +2013,7 @@
     {
       "id_perfume": 8044,
       "slug": "perfume-exclusivo-44",
-      "nome": "Perfume Árabe Exclusivo 44",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2056,7 +2056,7 @@
     {
       "id_perfume": 8045,
       "slug": "perfume-exclusivo-45",
-      "nome": "Perfume Árabe Exclusivo 45",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2101,7 +2101,7 @@
     {
       "id_perfume": 8046,
       "slug": "perfume-exclusivo-46",
-      "nome": "Perfume Árabe Exclusivo 46",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2144,7 +2144,7 @@
     {
       "id_perfume": 8048,
       "slug": "perfume-exclusivo-48",
-      "nome": "Perfume Árabe Exclusivo 48",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2186,7 +2186,7 @@
     {
       "id_perfume": 8049,
       "slug": "perfume-exclusivo-49",
-      "nome": "Perfume Árabe Exclusivo 49",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2231,7 +2231,7 @@
     {
       "id_perfume": 8050,
       "slug": "perfume-exclusivo-50",
-      "nome": "Perfume Árabe Exclusivo 50",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2272,7 +2272,7 @@
     {
       "id_perfume": 8051,
       "slug": "perfume-exclusivo-51",
-      "nome": "Perfume Árabe Exclusivo 51",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2315,7 +2315,7 @@
     {
       "id_perfume": 9052,
       "slug": "million-gold-paco-rabanne",
-      "nome": "Million Gold Paco Rabanne",
+      "nome": "Armaf - Infinity Gold 105ml",
       "id_marca": 1,
       "preco": 600,
       "status_estoque": "em_estoque",
@@ -2360,7 +2360,7 @@
     {
       "id_perfume": 8053,
       "slug": "perfume-exclusivo-53",
-      "nome": "Perfume Árabe Exclusivo 53",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2403,7 +2403,7 @@
     {
       "id_perfume": 8054,
       "slug": "perfume-exclusivo-54",
-      "nome": "Perfume Árabe Exclusivo 54",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2445,7 +2445,7 @@
     {
       "id_perfume": 8055,
       "slug": "perfume-exclusivo-55",
-      "nome": "Perfume Árabe Exclusivo 55",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
@@ -2490,7 +2490,7 @@
     {
       "id_perfume": 8056,
       "slug": "perfume-exclusivo-56",
-      "nome": "Perfume Árabe Exclusivo 56",
+      "nome": "Bob My Pet (perfume para pet)",
       "id_marca": 1,
       "preco": 150,
       "status_estoque": "em_estoque",
