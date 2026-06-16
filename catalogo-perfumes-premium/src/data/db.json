@@ -107,14 +107,14 @@
   "perfumes": [
     {
       "id_perfume": 1,
-      "slug": "venti-silky-princess-fragrance-world-queen-of-silk-creed",
-      "nome": "Venti Silky Princess Fragrance World / Queen of Silk Creed",
+      "slug": "al-layl-al-wataniah",
+      "nome": "al layl al wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/venti-silky-princess-fragrance-world-queen-of-silk-creed.webp",
+      "imagem_url": "/assets/images/optimized/al-layl-al-wataniah.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -142,19 +142,21 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
       "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 2,
-      "slug": "afnan-souvenir-desert-rose",
-      "nome": "Afnan - Souvenir Desert Rose 100ml",
+      "slug": "al-wataniah-boraq-75-ml",
+      "nome": "al wataniah boraq 75 ml",
       "id_marca": 1,
-      "preco": 400,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/afnan-souvenir-desert-rose.webp",
+      "imagem_url": "/assets/images/optimized/al-wataniah-boraq-75-ml.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -182,19 +184,21 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 3,
-      "slug": "ajward-pattafa",
-      "nome": "Ajward Pattafa 60ml",
+      "slug": "al-wataniah-kenz-al-malik-100-ml",
+      "nome": "al wataniah kenz al malik 100 ml",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/ajward-pattafa.webp",
+      "imagem_url": "/assets/images/optimized/al-wataniah-kenz-al-malik-100-ml.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -229,54 +233,14 @@
     },
     {
       "id_perfume": 4,
-      "slug": "al-nobre-almeer-lattafa",
-      "nome": "Al Nobre Almeer Lattafa",
+      "slug": "bareeq-al-dhahab-al-wataniah",
+      "nome": "bareeq al dhahab al wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-nobre-almeer-lattafa.webp",
-      "destaque": true,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 5,
-      "slug": "al-sheikh-edp-da-sahari-collections",
-      "nome": "Al Sheikh EDP 100ml da Sahari Collections",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-sheikh-edp-da-sahari-collections.webp",
+      "imagem_url": "/assets/images/optimized/bareeq-al-dhahab-al-wataniah.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -307,18 +271,60 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
-      "id_perfume": 6,
-      "slug": "al-ward-sabah",
-      "nome": "Al Ward - Sabah 100ml",
+      "id_perfume": 5,
+      "slug": "body-cream-asad-black",
+      "nome": "body cream asad black",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-ward-sabah.webp",
+      "imagem_url": "/assets/images/optimized/body-cream-asad-black.webp",
+      "destaque": true,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 6,
+      "slug": "club-de-nuit-intense-man-armaf",
+      "nome": "club de nuit intense man armaf",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "masculino",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/club-de-nuit-intense-man-armaf.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -353,14 +359,14 @@
     },
     {
       "id_perfume": 7,
-      "slug": "al-wataniah-ameerati",
-      "nome": "Al Wataniah - Ameerati 100ml",
+      "slug": "club-de-nuit-maleka-armaf",
+      "nome": "Club de Nuit Maleka Armaf",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 450,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-ameerati.webp",
+      "imagem_url": "/assets/images/optimized/club-de-nuit-maleka-armaf.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -388,21 +394,19 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
+      "badges": [],
+      "preco_faixa": "ate_500"
     },
     {
       "id_perfume": 8,
-      "slug": "al-wataniah-attar-al-wesal",
-      "nome": "Al Wataniah - Attar Al Wesal 100ml",
+      "slug": "eqaab-al-wataniah",
+      "nome": "eqaab al wataniah",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-attar-al-wesal.webp",
+      "imagem_url": "/assets/images/optimized/eqaab-al-wataniah.webp",
       "destaque": true,
       "volume_ml": 100,
       "ocasiao": [
@@ -437,14 +441,14 @@
     },
     {
       "id_perfume": 9,
-      "slug": "al-wataniah-boraq",
-      "nome": "Al Wataniah - Boraq 75ml",
+      "slug": "espada-azul-al-wataniah",
+      "nome": "espada azul al wataniah",
       "id_marca": 1,
-      "preco": 280,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-boraq.webp",
+      "imagem_url": "/assets/images/optimized/espada-azul-al-wataniah.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -479,14 +483,14 @@
     },
     {
       "id_perfume": 10,
-      "slug": "al-wataniah-durrat-al-aroo",
-      "nome": "Al Wataniah - Durrat Al Aroo 85ml",
+      "slug": "ghala-al-wataniah",
+      "nome": "ghala al wataniah",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-durrat-al-aroo.webp",
+      "imagem_url": "/assets/images/optimized/ghala-al-wataniah.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -521,14 +525,14 @@
     },
     {
       "id_perfume": 11,
-      "slug": "al-wataniah-al-layl-edp-unissex",
-      "nome": "Al Wataniah Al Layl EDP Unissex 100ml",
+      "slug": "kenz-al-malik-al-wataniah",
+      "nome": "kenz al malik al wataniah",
       "id_marca": 1,
-      "preco": 290,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-al-layl-edp-unissex.webp",
+      "imagem_url": "/assets/images/optimized/kenz-al-malik-al-wataniah.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -563,14 +567,14 @@
     },
     {
       "id_perfume": 12,
-      "slug": "al-wataniah-ghala-eau-de-parfum-feminino",
-      "nome": "Al Wataniah Ghala Eau de Parfum 100ml Feminino",
+      "slug": "lattafa-musamam-white-100-ml",
+      "nome": "lattafa musamam white 100 ml",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
-      "genero": "feminino",
+      "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-ghala-eau-de-parfum-feminino.webp",
+      "imagem_url": "/assets/images/optimized/lattafa-musamam-white-100-ml.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -605,14 +609,14 @@
     },
     {
       "id_perfume": 13,
-      "slug": "al-wataniah-kenz-al-malik",
-      "nome": "Al Wataniah Kenz Al Malik 100ml",
+      "slug": "million-gold-paco-rabanne",
+      "nome": "million gold paco rabanne",
       "id_marca": 1,
-      "preco": 290,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-kenz-al-malik.webp",
+      "imagem_url": "/assets/images/optimized/million-gold-paco-rabanne.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -647,14 +651,14 @@
     },
     {
       "id_perfume": 14,
-      "slug": "al-wataniah-nawal-fluorite-edp-feminino",
-      "nome": "Al Wataniah Nawal Fluorite EDP 100ml Feminino",
+      "slug": "perfume-exclusivo-10",
+      "nome": "perfume exclusivo 10",
       "id_marca": 1,
-      "preco": 250,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
-      "genero": "feminino",
+      "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-nawal-fluorite-edp-feminino.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-10.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -685,18 +689,18 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 15,
-      "slug": "al-wataniah-sultan-al-lail-original",
-      "nome": "Al Wataniah Sultan Al Lail Original 100ml",
+      "slug": "perfume-exclusivo-11",
+      "nome": "perfume exclusivo 11",
       "id_marca": 1,
-      "preco": 240,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-sultan-al-lail-original.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-11.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -727,102 +731,102 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 16,
-      "slug": "al-wataniah-tiara-pink-eau-de-parfum",
-      "nome": "Al Wataniah Tiara Pink Eau de Parfum 100ml",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-tiara-pink-eau-de-parfum.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 17,
-      "slug": "al-wataniah-tibyan",
-      "nome": "Al Wataniah Tibyan 100ml",
-      "id_marca": 1,
-      "preco": 249.9,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/al-wataniah-tibyan.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 18,
-      "slug": "alpine-maison-alhambra",
-      "nome": "Alpine Maison Alhambra",
+      "slug": "lattafa-yara-100-ml",
+      "nome": "Lattafa - Yara 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/alpine-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-12.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 17,
+      "slug": "perfume-exclusivo-13",
+      "nome": "perfume exclusivo 13",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-13.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 18,
+      "slug": "al-wataniah-durrat-al-aroo-85-ml",
+      "nome": "Al Wataniah - Durrat Al Aroo 85 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-14.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -857,134 +861,14 @@
     },
     {
       "id_perfume": 19,
-      "slug": "amber-divine-passion-coolcool",
-      "nome": "Amber Divine Passion Cool&Cool 100ml",
+      "slug": "perfume-exclusivo-16",
+      "nome": "perfume exclusivo 16",
       "id_marca": 1,
-      "preco": 450,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/amber-divine-passion-coolcool.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 20,
-      "slug": "amnia-al-wataniah-compartilhavel",
-      "nome": "Amnia Al Wataniah Compartilhável 100ml",
-      "id_marca": 1,
-      "preco": 330,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/amnia-al-wataniah-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 21,
-      "slug": "armaf-infinity-gold",
-      "nome": "Armaf - Infinity Gold 105ml",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/armaf-infinity-gold.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 22,
-      "slug": "asdaaf-ameerat-al-arab",
-      "nome": "Asdaaf - Ameerat Al Arab 100ml",
-      "id_marca": 1,
-      "preco": 290,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/asdaaf-ameerat-al-arab.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-16.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1018,15 +902,139 @@
       "preco_faixa": "ate_350"
     },
     {
-      "id_perfume": 23,
-      "slug": "asdaaf-andaleeb-flora",
-      "nome": "Asdaaf - Andaleeb Flora 100ml",
+      "id_perfume": 20,
+      "slug": "perfume-exclusivo-17",
+      "nome": "perfume exclusivo 17",
       "id_marca": 1,
-      "preco": 280,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/asdaaf-andaleeb-flora.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-17.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 21,
+      "slug": "perfume-exclusivo-18",
+      "nome": "perfume exclusivo 18",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-18.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 22,
+      "slug": "orientica-premium-royal-amber-80ml",
+      "nome": "Orientica Premium - Royal Amber 80ml",
+      "id_marca": 1,
+      "preco": 750,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-19.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [],
+      "preco_faixa": "acima_500"
+    },
+    {
+      "id_perfume": 23,
+      "slug": "perfume-exclusivo-20",
+      "nome": "perfume exclusivo 20",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-20.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1061,59 +1069,14 @@
     },
     {
       "id_perfume": 24,
-      "slug": "athena-maison-alhambra",
-      "nome": "Athena Maison Alhambra (inspirado na fragrância Goddess, da Burberry) 100ml",
+      "slug": "lattafa-afeef-100-ml",
+      "nome": "Lattafa - Afeef 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/athena-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [
-        "goddess"
-      ],
-      "badges": [
-        "Custo-Benefício",
-        "Lembra o goddess"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 25,
-      "slug": "attar-al-wesal-gold",
-      "nome": "Attar Al Wesal Gold",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/attar-al-wesal-gold.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-21.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1141,19 +1104,63 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
     },
     {
-      "id_perfume": 26,
-      "slug": "bad-femme-maison-alhambra",
-      "nome": "B.A.D Femme Maison Alhambra 100ml",
+      "id_perfume": 25,
+      "slug": "lattafa-atheeri-100-ml",
+      "nome": "Lattafa - Atheeri 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
-      "genero": "feminino",
+      "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/bad-femme-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-22.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 26,
+      "slug": "lattafa-fakhar-platin-100-ml",
+      "nome": "Lattafa - Fakhar Platin 100 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-23.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1188,14 +1195,14 @@
     },
     {
       "id_perfume": 27,
-      "slug": "bad-home-maison-alhambra",
-      "nome": "B.A.D Home 100ml Maison Alhambra",
+      "slug": "lattafa-fakhar-extrait-gold-100-ml",
+      "nome": "Lattafa - Fakhar Extrait Gold 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
-      "genero": "masculino",
+      "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/bad-home-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-24.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1230,14 +1237,14 @@
     },
     {
       "id_perfume": 28,
-      "slug": "bakhoorroyal-ocean-coolcool",
-      "nome": "Bakhoorroyal Ocean Cool&Cool",
+      "slug": "al-wataniah-ameerati-100-ml",
+      "nome": "Al Wataniah - Ameerati 100 ml",
       "id_marca": 1,
-      "preco": 450,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/bakhoorroyal-ocean-coolcool.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-27.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1265,19 +1272,21 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 29,
-      "slug": "baroque-rouge-540-maison-alhambra-compartilhavel",
-      "nome": "Baroque Rouge 540 Maison Alhambra Compartilhável",
+      "slug": "al-wataniah-attar-al-wesal-100-ml",
+      "nome": "Al Wataniah - Attar Al Wesal 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/baroque-rouge-540-maison-alhambra-compartilhavel.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-28.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1312,14 +1321,14 @@
     },
     {
       "id_perfume": 30,
-      "slug": "bayaan-lattafa",
-      "nome": "Bayaan Lattafa 100ml",
+      "slug": "lattafa-fakhar-rose-100-ml",
+      "nome": "Lattafa - Fakhar Rose 100 ml",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/bayaan-lattafa.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-30.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1347,19 +1356,21 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
       "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 31,
-      "slug": "blue-seduction-antonio-banderas",
-      "nome": "Blue Seduction Antonio Banderas 200ml",
+      "slug": "lattafa-fakhar-100-ml",
+      "nome": "Lattafa - Fakhar 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/blue-seduction-antonio-banderas.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-32.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1394,14 +1405,14 @@
     },
     {
       "id_perfume": 32,
-      "slug": "bob-my-pet-perfume-para-pet",
-      "nome": "Bob My Pet (perfume para pet)",
+      "slug": "perfume-exclusivo-36",
+      "nome": "perfume exclusivo 36",
       "id_marca": 1,
-      "preco": 150,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/bob-my-pet-perfume-para-pet.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-36.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1432,18 +1443,18 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 33,
-      "slug": "body-cream-delilah-maison-alhambra",
-      "nome": "Body Cream Delilah Maison Alhambra 110g",
+      "slug": "perfume-exclusivo-38",
+      "nome": "perfume exclusivo 38",
       "id_marca": 1,
-      "preco": 210,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/body-cream-delilah-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-38.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1474,18 +1485,18 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 34,
-      "slug": "body-cream-delilah-maison-alhambra",
-      "nome": "Body Cream Delilah Maison Alhambra 110g 24h",
+      "slug": "lattafa-asad-zanzibar-limited-edition",
+      "nome": "Lattafa Asad Zanzibar Limited Edition",
       "id_marca": 1,
-      "preco": 240,
+      "preco": 350,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/body-cream-delilah-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-4.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1513,21 +1524,19 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
+      "badges": [],
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 35,
-      "slug": "body-cream-hidratante-yara",
-      "nome": "Body Cream Hidratante Yara 305ml",
+      "slug": "victorias-s-secret-body-splash-250-ml",
+      "nome": "Victorias s Secret - Body Splash 250 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/body-cream-hidratante-yara.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-40.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1562,14 +1571,14 @@
     },
     {
       "id_perfume": 36,
-      "slug": "body-cream-hidratacao-dear-body",
-      "nome": "Body Cream Hidratação Dear Body 200g",
+      "slug": "perfume-exclusivo-41",
+      "nome": "perfume exclusivo 41",
       "id_marca": 1,
-      "preco": 200,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/body-cream-hidratacao-dear-body.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-41.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1600,18 +1609,18 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 37,
-      "slug": "body-creme-asad-black",
-      "nome": "Body Creme Asad Black",
+      "slug": "perfume-exclusivo-42",
+      "nome": "perfume exclusivo 42",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/body-creme-asad-black.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-42.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1646,14 +1655,14 @@
     },
     {
       "id_perfume": 38,
-      "slug": "celeste-maison-alhambra",
-      "nome": "Celeste Maison Alhambra 100ml",
+      "slug": "perfume-exclusivo-44",
+      "nome": "perfume exclusivo 44",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/celeste-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-44.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1681,19 +1690,21 @@
         ]
       },
       "similares_famosos": [],
-      "badges": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
       "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 39,
-      "slug": "chants-tenderina-maison-alhambra-feminino",
-      "nome": "Chants Tenderina Maison Alhambra Feminino 100ml",
+      "slug": "perfume-exclusivo-45",
+      "nome": "perfume exclusivo 45",
       "id_marca": 1,
-      "preco": 300,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
-      "genero": "feminino",
+      "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/chants-tenderina-maison-alhambra-feminino.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-45.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1728,14 +1739,14 @@
     },
     {
       "id_perfume": 40,
-      "slug": "club-de-nuit-maleka-armaf",
-      "nome": "Club de Nuit Maleka Armaf",
+      "slug": "perfume-exclusivo-46",
+      "nome": "perfume exclusivo 46",
       "id_marca": 1,
-      "preco": 450,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
-      "familia_olfativa": "floral",
-      "imagem_url": "/assets/images/optimized/club-de-nuit-maleka-armaf.webp",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-46.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -1751,400 +1762,411 @@
       "piramide_olfativa": {
         "topo": [
           "Bergamota",
-          "Saffron"
+          "Especiarias"
         ],
         "coracao": [
-          "Rosa",
-          "Oud",
-          "Jasmim"
+          "Notas Florais",
+          "Madeiras"
         ],
         "fundo": [
           "Âmbar",
-          "Baunilha",
           "Almíscar"
         ]
       },
-      "similares_famosos": [
-        "Chanel N°5",
-        "Creed Aventus for Her"
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
       ],
-      "badges": [],
-      "preco_faixa": "ate_500"
+      "preco_faixa": "ate_350"
     },
     {
       "id_perfume": 41,
-      "slug": "club-de-nuit-woman-armaf-feminino",
-      "nome": "Club de Nuit Woman Armaf Feminino",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/club-de-nuit-woman-armaf-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 42,
-      "slug": "como-moiselle-maison-alhambra",
-      "nome": "Como Moiselle Maison Alhambra",
-      "id_marca": 1,
-      "preco": 330,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/como-moiselle-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 43,
-      "slug": "creme-hidratante-body-cream-pote-pasta",
-      "nome": "Creme Hidratante Body Cream 200g - Pote Pasta",
-      "id_marca": 1,
-      "preco": 190,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/creme-hidratante-body-cream-pote-pasta.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 44,
-      "slug": "dalal-lattafa",
-      "nome": "Dalal Lattafa",
-      "id_marca": 1,
-      "preco": 590,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/dalal-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 45,
-      "slug": "decantes",
-      "nome": "Decantes",
-      "id_marca": 1,
-      "preco": 100,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/decantes.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 46,
-      "slug": "delilah-blanc-maison-alhambra",
-      "nome": "Delilah Blanc Maison Alhambra 100ml",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/delilah-blanc-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 47,
-      "slug": "delilah-pour-femme-edp-maison-alhambra",
-      "nome": "Delilah Pour Femme EDP 100ml Maison Alhambra",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/delilah-pour-femme-edp-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 48,
-      "slug": "durrah-nicho-lattafa-perfumes-compartilhavel",
-      "nome": "Durrah Nicho Lattafa Perfumes Compartilhável",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/durrah-nicho-lattafa-perfumes-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 49,
-      "slug": "eclaire-lattafa-perfumes-feminino",
-      "nome": "Eclaire Lattafa Perfumes Feminino 100ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/eclaire-lattafa-perfumes-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 50,
-      "slug": "eclat-de-lune-maison-alhambra",
-      "nome": "Eclat de Lune Maison Alhambra",
+      "slug": "lattafa-tharwah-gold-100-ml",
+      "nome": "Lattafa - THARWAH GOLD 100 ml",
       "id_marca": 1,
       "preco": 300,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/eclat-de-lune-maison-alhambra.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-48.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 42,
+      "slug": "perfume-exclusivo-49",
+      "nome": "perfume exclusivo 49",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-49.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 43,
+      "slug": "perfume-exclusivo-5",
+      "nome": "perfume exclusivo 5",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-5.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 44,
+      "slug": "perfume-exclusivo-50",
+      "nome": "perfume exclusivo 50",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-50.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 45,
+      "slug": "al-wataniah-boraq-75-ml",
+      "nome": "Al Wataniah - Boraq 75 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-51.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 46,
+      "slug": "armaf-infinity-gold-105-ml",
+      "nome": "Armaf - Infinity Gold 105 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-53.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 47,
+      "slug": "perfume-exclusivo-54",
+      "nome": "perfume exclusivo 54",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-54.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 48,
+      "slug": "perfume-exclusivo-55",
+      "nome": "perfume exclusivo 55",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-55.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 49,
+      "slug": "asdaaf-ameerat-al-arab-100-ml",
+      "nome": "Asdaaf - Ameerat Al Arab 100 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-56.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 50,
+      "slug": "lattafa-asad-100-ml",
+      "nome": "Lattafa - Asad 100 ml",
+      "id_marca": 1,
+      "preco": 300,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-6.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -2179,14 +2201,14 @@
     },
     {
       "id_perfume": 51,
-      "slug": "el-ward-palais-des-roses-eau-de-parfum-unissex",
-      "nome": "El Ward Palais des Roses Eau de Parfum Unissex 100ml",
+      "slug": "perfume-exclusivo-7",
+      "nome": "perfume exclusivo 7",
       "id_marca": 1,
-      "preco": 290,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/el-ward-palais-des-roses-eau-de-parfum-unissex.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-7.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -2221,54 +2243,14 @@
     },
     {
       "id_perfume": 52,
-      "slug": "emaan-lattafa",
-      "nome": "Emaan Lattafa 100ml",
+      "slug": "perfume-exclusivo-8",
+      "nome": "perfume exclusivo 8",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/emaan-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 53,
-      "slug": "emper-al-fares-musk-effect-unissex-edp",
-      "nome": "Emper Al Fares Musk Effect Unissex 100ml EDP",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/emper-al-fares-musk-effect-unissex-edp.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-8.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -2299,18 +2281,60 @@
       "badges": [
         "Custo-Benefício"
       ],
-      "preco_faixa": "ate_250"
+      "preco_faixa": "ate_350"
     },
     {
-      "id_perfume": 54,
-      "slug": "espada-intense-le-chameau-compartilhavel",
-      "nome": "Espada Intense Le Chameau Compartilhável 100ml",
+      "id_perfume": 53,
+      "slug": "perfume-exclusivo-9",
+      "nome": "perfume exclusivo 9",
       "id_marca": 1,
       "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/espada-intense-le-chameau-compartilhavel.webp",
+      "imagem_url": "/assets/images/optimized/perfume-exclusivo-9.webp",
+      "destaque": false,
+      "volume_ml": 100,
+      "ocasiao": [
+        "uso_noturno",
+        "encontros"
+      ],
+      "estilo": [
+        "elegante"
+      ],
+      "intensidade": "forte",
+      "fixacao": 4,
+      "projecao": 4,
+      "piramide_olfativa": {
+        "topo": [
+          "Bergamota",
+          "Especiarias"
+        ],
+        "coracao": [
+          "Notas Florais",
+          "Madeiras"
+        ],
+        "fundo": [
+          "Âmbar",
+          "Almíscar"
+        ]
+      },
+      "similares_famosos": [],
+      "badges": [
+        "Custo-Benefício"
+      ],
+      "preco_faixa": "ate_350"
+    },
+    {
+      "id_perfume": 54,
+      "slug": "sabah-al-ward-al-wataniah",
+      "nome": "sabah al ward al wataniah",
+      "id_marca": 1,
+      "preco": 299.9,
+      "status_estoque": "em_estoque",
+      "genero": "unissex",
+      "familia_olfativa": "oriental",
+      "imagem_url": "/assets/images/optimized/sabah-al-ward-al-wataniah.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -2345,54 +2369,14 @@
     },
     {
       "id_perfume": 55,
-      "slug": "extravagant-lover-maison-alhambra",
-      "nome": "Extravagant Lover Maison Alhambra",
+      "slug": "sultan-allail-al-wataniah",
+      "nome": "sultan allail al wataniah",
       "id_marca": 1,
-      "preco": 350,
+      "preco": 299.9,
       "status_estoque": "em_estoque",
       "genero": "unissex",
       "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/extravagant-lover-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 56,
-      "slug": "ferrari-black-masculino-de-ferrari-eau-de-toilette",
-      "nome": "Ferrari Black Masculino de Ferrari Eau de Toilette",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/ferrari-black-masculino-de-ferrari-eau-de-toilette.webp",
+      "imagem_url": "/assets/images/optimized/sultan-allail-al-wataniah.webp",
       "destaque": false,
       "volume_ml": 100,
       "ocasiao": [
@@ -2424,3929 +2408,6 @@
         "Custo-Benefício"
       ],
       "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 57,
-      "slug": "genius-rose-emper",
-      "nome": "Genius Rose Emper 100ml",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/genius-rose-emper.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 58,
-      "slug": "glacier-pour-homme-maison-alhambra",
-      "nome": "Glacier Pour Homme Maison Alhambra",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/glacier-pour-homme-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 59,
-      "slug": "habik-for-men-lattafa-perfumes-masculino",
-      "nome": "Habik For Men Lattafa Perfumes Masculino",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/habik-for-men-lattafa-perfumes-masculino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 60,
-      "slug": "happy-brush-kids-lattafa-pride",
-      "nome": "Happy Brush Kids 75ml Lattafa Pride",
-      "id_marca": 1,
-      "preco": 200,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/happy-brush-kids-lattafa-pride.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 61,
-      "slug": "her-confession-lattafa-perfumes",
-      "nome": "Her Confession Lattafa Perfumes 100ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/her-confession-lattafa-perfumes.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 62,
-      "slug": "his-confession-lattafa-perfumes",
-      "nome": "His Confession Lattafa Perfumes",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/his-confession-lattafa-perfumes.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 63,
-      "slug": "intrude-da-maison-alhambra-givenchy-linterdit",
-      "nome": "Intrude da Maison Alhambra / Givenchy L'Interdit",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/intrude-da-maison-alhambra-givenchy-linterdit.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 64,
-      "slug": "ishq-al-shuyukh-silver-lattafa-perfumes",
-      "nome": "Ishq Al Shuyukh Silver Lattafa Perfumes",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/ishq-al-shuyukh-silver-lattafa-perfumes.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 65,
-      "slug": "jardim-de-reve-maison-alhambra",
-      "nome": "Jardim de Rêve Maison Alhambra 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/jardim-de-reve-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 66,
-      "slug": "jazzab-elixir-body-cream",
-      "nome": "Jazzab Elixir Body Cream",
-      "id_marca": 1,
-      "preco": 280,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/jazzab-elixir-body-cream.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 67,
-      "slug": "jorge-di-profumo-deep-blue-maison-alhambra",
-      "nome": "Jorge di Profumo Deep Blue Maison Alhambra",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/jorge-di-profumo-deep-blue-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 68,
-      "slug": "ju-ilant-vitality-maison-alhambra",
-      "nome": "Ju Ilant Vitality Maison Alhambra",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/ju-ilant-vitality-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 69,
-      "slug": "khamrah-lattafa-perfumes-compartilhavel",
-      "nome": "Khamrah Lattafa Perfumes Compartilhável 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/khamrah-lattafa-perfumes-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 70,
-      "slug": "khanjar-lattafa-perfumes-compartilhavel",
-      "nome": "Khanjar Lattafa Perfumes Compartilhável 85ml",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/khanjar-lattafa-perfumes-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 71,
-      "slug": "kit-souvenir-floral-bouquet",
-      "nome": "Kit Souvenir Floral Bouquet",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/kit-souvenir-floral-bouquet.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 72,
-      "slug": "kit-yara-2-und-yara-candy-e-yara",
-      "nome": "Kit Yara - 2 und: Yara Candy e Yara",
-      "id_marca": 1,
-      "preco": 550,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/kit-yara-2-und-yara-candy-e-yara.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 73,
-      "slug": "la-african-drummer-lattafa-pride",
-      "nome": "La African Drummer Lattafa Pride",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/la-african-drummer-lattafa-pride.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 74,
-      "slug": "la-vivacite-maison-alhambra",
-      "nome": "La Vivacitê Maison Alhambra 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/la-vivacite-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 75,
-      "slug": "lattafa-afeef",
-      "nome": "Lattafa - Afeef 100ml",
-      "id_marca": 1,
-      "preco": 700,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-afeef.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 76,
-      "slug": "lattafa-asad",
-      "nome": "Lattafa - Asad 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-asad.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 77,
-      "slug": "lattafa-asad-bourbon",
-      "nome": "Lattafa - Asad Bourbon 100ml",
-      "id_marca": 1,
-      "preco": 330,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-asad-bourbon.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 78,
-      "slug": "lattafa-asad-elixir",
-      "nome": "Lattafa - Asad Elixir 100ml",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-asad-elixir.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 79,
-      "slug": "lattafa-atheeri",
-      "nome": "Lattafa - Atheeri 100ml",
-      "id_marca": 1,
-      "preco": 750,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-atheeri.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 80,
-      "slug": "lattafa-fakhar",
-      "nome": "Lattafa - Fakhar 100ml",
-      "id_marca": 1,
-      "preco": 349.9,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-fakhar.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 81,
-      "slug": "lattafa-fakhar-extrait-gold",
-      "nome": "Lattafa - Fakhar Extrait Gold 100ml",
-      "id_marca": 1,
-      "preco": 349.9,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-fakhar-extrait-gold.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 82,
-      "slug": "lattafa-fakhar-platin",
-      "nome": "Lattafa - Fakhar Platin 100ml",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-fakhar-platin.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 83,
-      "slug": "lattafa-fakhar-rose",
-      "nome": "Lattafa - Fakhar Rose 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-fakhar-rose.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 84,
-      "slug": "lattafa-musamam-white",
-      "nome": "Lattafa - Musamam White 100ml",
-      "id_marca": 1,
-      "preco": 550,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-musamam-white.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 85,
-      "slug": "lattafa-tharwah-gold",
-      "nome": "Lattafa - Tharwah Gold 100ml",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-tharwah-gold.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 86,
-      "slug": "lattafa-yara",
-      "nome": "Lattafa - Yara 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-yara.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 87,
-      "slug": "lattafa-asad-zanzibar-limited-edition",
-      "nome": "Lattafa Asad Zanzibar Limited Edition 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-asad-zanzibar-limited-edition.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 88,
-      "slug": "lattafa-pride-la-collection-dantiquites-1910-eau-de-parfum",
-      "nome": "Lattafa Pride La Collection D'Antiquités 1910 Eau de Parfum 100ml",
-      "id_marca": 1,
-      "preco": 399.9,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/lattafa-pride-la-collection-dantiquites-1910-eau-de-parfum.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 89,
-      "slug": "legend-intense-emper-eau-de-toilette-masculino",
-      "nome": "Legend Intense Emper Eau de Toilette Masculino",
-      "id_marca": 1,
-      "preco": 290,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/legend-intense-emper-eau-de-toilette-masculino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 90,
-      "slug": "liwan-ard-zafaran",
-      "nome": "Liwan Ard Zafaran",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/liwan-ard-zafaran.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 91,
-      "slug": "mahib-adyan-by-anfar",
-      "nome": "Mahib Adyan by Anfar 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/mahib-adyan-by-anfar.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 92,
-      "slug": "maison-alhambra-body-perfume-mist-250ml",
-      "nome": "Maison Alhambra - Body Perfume Mist 250ml",
-      "id_marca": 1,
-      "preco": 150,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/maison-alhambra-body-perfume-mist-250ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 93,
-      "slug": "manaal-ard-al-zaafaran",
-      "nome": "Manaal - Ard Al Zaafaran 100ml",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/manaal-ard-al-zaafaran.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 94,
-      "slug": "marshmallow-blush-paris-corn",
-      "nome": "Marshmallow Blush Paris Corn",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/marshmallow-blush-paris-corn.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 95,
-      "slug": "mawwal-basir",
-      "nome": "Mawwal - Basir 100ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/mawwal-basir.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 96,
-      "slug": "mayer-lattafa",
-      "nome": "Mayer Lattafa",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/mayer-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 97,
-      "slug": "maitre-de-blue-maison-alhambra-masculino",
-      "nome": "Maître de Blue Maison Alhambra Masculino 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/maitre-de-blue-maison-alhambra-masculino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 98,
-      "slug": "mia-dolcezza-maison-alhambra",
-      "nome": "Mia Dolcezza Maison Alhambra",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/mia-dolcezza-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 99,
-      "slug": "milena-ard-al-zaafaran",
-      "nome": "Milena Ard Al Zaafaran 100ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/milena-ard-al-zaafaran.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 100,
-      "slug": "montaigne-vanille-maison-alhambra",
-      "nome": "Montaigne Vanille Maison Alhambra",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/montaigne-vanille-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 101,
-      "slug": "norah-lucher-adyan",
-      "nome": "Norah Lucher Adyan",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/norah-lucher-adyan.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 102,
-      "slug": "oleo-concentrado-yara-lattafa-20ml",
-      "nome": "Óleo Concentrado Yara Lattafa 20ml",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/oleo-concentrado-yara-lattafa-20ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 103,
-      "slug": "oleo-concentrado-al-wataniah-12ml",
-      "nome": "Óleo Concentrado Al Wataniah 12ml",
-      "id_marca": 1,
-      "preco": 200,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/oleo-concentrado-al-wataniah-12ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 104,
-      "slug": "olivia-maison-alhambra",
-      "nome": "Olivia Maison Alhambra",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/olivia-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 105,
-      "slug": "orientica-premium-royal-amber-80ml",
-      "nome": "Orientica Premium - Royal Amber 80ml",
-      "id_marca": 1,
-      "preco": 750,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/orientica-premium-royal-amber-80ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 106,
-      "slug": "perfume-armaf-club-de-nuit-intense-man",
-      "nome": "Perfume Armaf Club de Nuit Intense Man 105ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/perfume-armaf-club-de-nuit-intense-man.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 107,
-      "slug": "perfume-dar-el-ward-oriental-oud-edp",
-      "nome": "Perfume Dar El Ward Oriental Oud EDP 100ml",
-      "id_marca": 1,
-      "preco": 290,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/perfume-dar-el-ward-oriental-oud-edp.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 108,
-      "slug": "perfume-lattafa-qaed-al-fursan-black-eau-de-parfum-90ml",
-      "nome": "Perfume Lattafa Qaed Al Fursan Black Eau de Parfum 90ml",
-      "id_marca": 1,
-      "preco": 290,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/perfume-lattafa-qaed-al-fursan-black-eau-de-parfum-90ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 109,
-      "slug": "perfume-sahari-blue-sultan-edp-unisex",
-      "nome": "Perfume Sahari Blue Sultan EDP Unisex 100ml",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/perfume-sahari-blue-sultan-edp-unisex.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 110,
-      "slug": "petra-lattafa",
-      "nome": "Petra Lattafa",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/petra-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 111,
-      "slug": "pink-eclipse-maison-alhambra-ref-olfativa-prada-paradoxe",
-      "nome": "Pink Eclipse Maison Alhambra - ref. olfativa Prada Paradoxe - 100ml",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/pink-eclipse-maison-alhambra-ref-olfativa-prada-paradoxe.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [
-        "prada paradoxe"
-      ],
-      "badges": [
-        "Lembra o prada"
-      ],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 112,
-      "slug": "pisa-lattafa-pride",
-      "nome": "Pisa Lattafa Pride",
-      "id_marca": 1,
-      "preco": 500,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/pisa-lattafa-pride.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 113,
-      "slug": "qaed-al-fursan-unlimited-lattafa-perfumes-compartilhavel-90ml",
-      "nome": "Qaed Al Fursan Unlimited Lattafa Perfumes Compartilhável 90ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/qaed-al-fursan-unlimited-lattafa-perfumes-compartilhavel-90ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 114,
-      "slug": "qarar-asdaaf",
-      "nome": "Qarar Asdaaf 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/qarar-asdaaf.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 115,
-      "slug": "queen-of-arabia-lattafa-perfumes-feminino",
-      "nome": "Queen of Arabia Lattafa Perfumes Feminino",
-      "id_marca": 1,
-      "preco": 700,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/queen-of-arabia-lattafa-perfumes-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 116,
-      "slug": "raneen-asdaaf",
-      "nome": "Raneen Asdaaf 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/raneen-asdaaf.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 117,
-      "slug": "reem-asdaaf-lattafa-eau-de-parfum",
-      "nome": "Reem Asdaaf / Lattafa Eau de Parfum 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/reem-asdaaf-lattafa-eau-de-parfum.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 118,
-      "slug": "rose-mystery-intense-maison-alhambra",
-      "nome": "Rose Mystery Intense Maison Alhambra",
-      "id_marca": 1,
-      "preco": 390,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/rose-mystery-intense-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 119,
-      "slug": "safeer-al-wald-ard-zafaran",
-      "nome": "Safeer Al Wald Ard Zafaran",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/safeer-al-wald-ard-zafaran.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 120,
-      "slug": "safeer-al-ward-creme-hidratante-450g",
-      "nome": "Safeer Al Ward Creme Hidratante 450g",
-      "id_marca": 1,
-      "preco": 330,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/safeer-al-ward-creme-hidratante-450g.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 121,
-      "slug": "salvo-eau-de-parfum-maison-alhambra",
-      "nome": "Salvo Eau de Parfum Maison Alhambra",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/salvo-eau-de-parfum-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 122,
-      "slug": "shahd-de-lattafa",
-      "nome": "Shahd de Lattafa",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/shahd-de-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 123,
-      "slug": "shaheen-silver-lattafa",
-      "nome": "Shaheen Silver Lattafa",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/shaheen-silver-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 124,
-      "slug": "shahreen-gold-lattafa",
-      "nome": "Shahreen Gold Lattafa",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/shahreen-gold-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 125,
-      "slug": "sing-kids-lattafa-pride",
-      "nome": "Sing Kids 75ml Lattafa Pride",
-      "id_marca": 1,
-      "preco": 200,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/sing-kids-lattafa-pride.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 126,
-      "slug": "so-candid-rouge-maison-alhambra",
-      "nome": "So Candid Rouge Maison Alhambra 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/so-candid-rouge-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 127,
-      "slug": "spray-corporal-e-cabelo-lattafa-haya-150ml",
-      "nome": "Spray Corporal e Cabelo Lattafa Haya 150ml",
-      "id_marca": 1,
-      "preco": 200,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/spray-corporal-e-cabelo-lattafa-haya-150ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 128,
-      "slug": "spray-corporal-e-cabelo-lattafa-yara-150ml",
-      "nome": "Spray Corporal e Cabelo Lattafa Yara 150ml",
-      "id_marca": 1,
-      "preco": 200,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/spray-corporal-e-cabelo-lattafa-yara-150ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 129,
-      "slug": "spray-corporal-e-capilar-mayer-lattafa-150ml",
-      "nome": "Spray Corporal e Capilar Mayer Lattafa 150ml",
-      "id_marca": 1,
-      "preco": 220,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/spray-corporal-e-capilar-mayer-lattafa-150ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 130,
-      "slug": "summer-forever-maison-alhambra",
-      "nome": "Summer Forever Maison Alhambra - inspirado na fragrância Muse, de Xerjoff",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/summer-forever-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [
-        "muse"
-      ],
-      "badges": [
-        "Custo-Benefício",
-        "Lembra o muse"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 131,
-      "slug": "teriaq-lattafa",
-      "nome": "Teriaq Lattafa 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/teriaq-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 132,
-      "slug": "thahaani-al-wataniah-compartilhavel",
-      "nome": "Thahaani Al Wataniah Compartilhável 100ml",
-      "id_marca": 1,
-      "preco": 279,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/thahaani-al-wataniah-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 133,
-      "slug": "tiramisu-caramel-zimaya",
-      "nome": "Tiramisu Caramel Zimaya 100ml",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/tiramisu-caramel-zimaya.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 134,
-      "slug": "uniq-armaf-effects-ok-uniq",
-      "nome": "Uniq Armaf Effects Ok Uniq",
-      "id_marca": 1,
-      "preco": 450,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/uniq-armaf-effects-ok-uniq.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 135,
-      "slug": "veneno-bianco-french-avenue",
-      "nome": "Veneno Bianco French Avenue",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/veneno-bianco-french-avenue.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 136,
-      "slug": "venti-carisma-fragrance-world-creed-carminda",
-      "nome": "Venti Carisma Fragrance World / Creed Carminda",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/venti-carisma-fragrance-world-creed-carminda.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 137,
-      "slug": "venti-sublime",
-      "nome": "Venti Sublime",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/venti-sublime.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 138,
-      "slug": "very-velvet-aqua-maison-alhambra",
-      "nome": "Very Velvet Aqua Maison Alhambra",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/very-velvet-aqua-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 139,
-      "slug": "victorias-secret-body-splash-250ml",
-      "nome": "Victoria's Secret - Body Splash 250ml",
-      "id_marca": 1,
-      "preco": 180,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/victorias-secret-body-splash-250ml.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 140,
-      "slug": "victorioso-nero-masculino-maison-alhambra-eau-de-parfum",
-      "nome": "Victorioso Nero Masculino Maison Alhambra Eau de Parfum 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/victorioso-nero-masculino-maison-alhambra-eau-de-parfum.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 141,
-      "slug": "vouge-night-maison-alhambra",
-      "nome": "Vouge Night Maison Alhambra",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/vouge-night-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 142,
-      "slug": "vougue-rouge-maison-alhambra",
-      "nome": "Vougue Rouge Maison Alhambra",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/vougue-rouge-maison-alhambra.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 143,
-      "slug": "vulcan-feu-french-avenue-compartilhavel",
-      "nome": "Vulcan Feu French Avenue Compartilhável 100ml",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/vulcan-feu-french-avenue-compartilhavel.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 144,
-      "slug": "watani-al-wataniah-feminino",
-      "nome": "Watani Al Wataniah Feminino 100ml",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/watani-al-wataniah-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 145,
-      "slug": "winners-trophy-gold-lattafa-pride",
-      "nome": "Winners Trophy Gold Lattafa Pride",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/winners-trophy-gold-lattafa-pride.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 146,
-      "slug": "yara-candy-lattafa",
-      "nome": "Yara Candy Lattafa 100ml",
-      "id_marca": 1,
-      "preco": 300,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/yara-candy-lattafa.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 147,
-      "slug": "yara-elixir-lattafa-feminino",
-      "nome": "Yara Elixir Lattafa 100ml Feminino",
-      "id_marca": 1,
-      "preco": 400,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/yara-elixir-lattafa-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_500"
-    },
-    {
-      "id_perfume": 148,
-      "slug": "yara-tous-lattafa-perfumes-feminino",
-      "nome": "Yara Tous Lattafa Perfumes Feminino 100ml",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/yara-tous-lattafa-perfumes-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 149,
-      "slug": "yeah-man-partum",
-      "nome": "Yeah Man Partum",
-      "id_marca": 1,
-      "preco": 350,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/yeah-man-partum.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "ate_350"
-    },
-    {
-      "id_perfume": 150,
-      "slug": "your-touch-extrait-maison-alhambra-stronger-with-you-intensely-armani",
-      "nome": "Your Touch Extrait Maison Alhambra / Stronger With You Intensely Armani",
-      "id_marca": 1,
-      "preco": 250,
-      "status_estoque": "em_estoque",
-      "genero": "masculino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/your-touch-extrait-maison-alhambra-stronger-with-you-intensely-armani.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
-    },
-    {
-      "id_perfume": 151,
-      "slug": "yum-yum-armaf-feminino",
-      "nome": "Yum Yum Armaf Feminino 100ml",
-      "id_marca": 1,
-      "preco": 600,
-      "status_estoque": "em_estoque",
-      "genero": "feminino",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/yum-yum-armaf-feminino.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [],
-      "preco_faixa": "acima_500"
-    },
-    {
-      "id_perfume": 152,
-      "slug": "arabe-collection-spray-corporal",
-      "nome": "Árabe Collection - Spray Corporal 200ml",
-      "id_marca": 1,
-      "preco": 60,
-      "status_estoque": "em_estoque",
-      "genero": "unissex",
-      "familia_olfativa": "oriental",
-      "imagem_url": "/assets/images/optimized/arabe-collection-spray-corporal.webp",
-      "destaque": false,
-      "volume_ml": 100,
-      "ocasiao": [
-        "uso_noturno",
-        "encontros"
-      ],
-      "estilo": [
-        "elegante"
-      ],
-      "intensidade": "forte",
-      "fixacao": 4,
-      "projecao": 4,
-      "piramide_olfativa": {
-        "topo": [
-          "Bergamota",
-          "Especiarias"
-        ],
-        "coracao": [
-          "Notas Florais",
-          "Madeiras"
-        ],
-        "fundo": [
-          "Âmbar",
-          "Almíscar"
-        ]
-      },
-      "similares_famosos": [],
-      "badges": [
-        "Custo-Benefício"
-      ],
-      "preco_faixa": "ate_250"
     }
   ]
 }
